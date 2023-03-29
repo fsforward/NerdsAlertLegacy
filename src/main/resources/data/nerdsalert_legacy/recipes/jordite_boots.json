@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "nerdsalert_legacy:jordite_ingot"
+    },
+    "2": {
+      "item": "nerdsalert_legacy:jordite_ingot"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:jordite_ingot"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:jordite_ingot"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:jordite_armor_boots",
+    "count": 1
+  }
+}

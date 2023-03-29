@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sandromyths_sword",
+    "customModelName": "Normal",
+    "name": "Sandromyths Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SandromythsTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 8.8,
+    "attackSpeed": 1.5,
+    "enchantability": 15,
+    "damageVsEntity": 6.2,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

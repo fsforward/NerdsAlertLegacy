@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "nerdsalert_legacy:blocks/black_ash_planks"
+  }
+}

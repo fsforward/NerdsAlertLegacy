@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "nerdsalert_legacy:shadi_crystal"
+    },
+    "title": {
+      "translate": "advancements.the_5horsemen.title"
+    },
+    "description": {
+      "translate": "advancements.the_5horsemen.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_5horsemen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "nerdsalert_legacy:shadi_crystal",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "nerdsalert_legacy:the_key_to_succes"
+}

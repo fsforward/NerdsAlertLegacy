@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "nerdsalert_legacy:block/black_ash_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "nerdsalert_legacy:block/black_ash_log"
+    },
+    "axis=z": {
+      "model": "nerdsalert_legacy:block/black_ash_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nerdsalert_legacy:block/nether_chromite_ore"
+    }
+  }
+}

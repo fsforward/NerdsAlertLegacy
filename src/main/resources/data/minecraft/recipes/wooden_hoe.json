@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_hoe",
+    "count": 1
+  }
+}

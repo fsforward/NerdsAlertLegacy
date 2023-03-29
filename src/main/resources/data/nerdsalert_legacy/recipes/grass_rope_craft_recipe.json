@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "67 "
+  ],
+  "key": {
+    "2": {
+      "item": "nerdsalert_legacy:string_of_grass"
+    },
+    "4": {
+      "item": "nerdsalert_legacy:string_of_grass"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:string_of_grass"
+    },
+    "6": {
+      "item": "nerdsalert_legacy:string_of_grass"
+    },
+    "7": {
+      "item": "nerdsalert_legacy:string_of_grass"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:grass_rope",
+    "count": 3
+  }
+}

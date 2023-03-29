@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nerdsalert_legacy:blocks/nether_chromite_ore",
+    "particle": "nerdsalert_legacy:blocks/nether_chromite_ore"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "nerdsalert_legacy:nether_chromite_ore"
+  },
+  "result": {
+    "item": "nerdsalert_legacy:chromite"
+  }
+}

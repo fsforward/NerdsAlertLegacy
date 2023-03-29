@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "nerdsalert_legacy:blocks/black_ash_planks",
+    "particle": "nerdsalert_legacy:blocks/black_ash_planks"
+  }
+}

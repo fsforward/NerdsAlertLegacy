@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "1": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "2": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "4": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "6": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "7": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "8": {
+      "item": "nerdsalert_legacy:chromite"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:block_of_chromite",
+    "count": 1
+  }
+}

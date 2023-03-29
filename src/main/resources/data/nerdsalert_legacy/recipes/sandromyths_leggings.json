@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "1": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "2": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "6": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "8": {
+      "item": "nerdsalert_legacy:sandromyths"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:sandromyths_armor_leggings",
+    "count": 1
+  }
+}

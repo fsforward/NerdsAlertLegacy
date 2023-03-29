@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "nerdsalert_legacy:tychola_ore"
+  },
+  "result": {
+    "item": "nerdsalert_legacy:radioactive_tychola_ingot"
+  }
+}

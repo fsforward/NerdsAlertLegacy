@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "1": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    },
+    "7": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="nerdsalert_legacy"
+version="1.4.0.0"
+displayName="NerdsAlert Legacy"
+credits="Mod by fsForward"
+displayURL="https://minecraft.fsforward.com"
+authors="fsForward"
+
+[[dependencies.nerdsalert_legacy]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

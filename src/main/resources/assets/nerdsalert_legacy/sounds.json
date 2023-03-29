@@ -1,0 +1,77 @@
+{
+  "sandor.living": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "nerdsalert_legacy:sandor.ambience0",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.ambience1",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.ambience2",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.ambience3",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.ambience4",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.ambience5",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.ambience6",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.ambience7",
+        "stream": false
+      }
+    ]
+  },
+  "sandor.hurt": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "nerdsalert_legacy:sandor.hurt0",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.hurt1",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.hurt2",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.hurt3",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.hurt4",
+        "stream": false
+      },
+      {
+        "name": "nerdsalert_legacy:sandor.hurt5",
+        "stream": false
+      }
+    ]
+  },
+  "sandor.death": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "nerdsalert_legacy:sandor.death",
+        "stream": false
+      }
+    ]
+  }
+}

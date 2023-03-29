@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "nerdsalert_legacy:blocks/mahogany_planks"
+  }
+}

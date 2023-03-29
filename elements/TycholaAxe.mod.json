@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "tychola_axe",
+    "customModelName": "Normal",
+    "name": "Tychola Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TycholaTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 0.85,
+    "enchantability": 8,
+    "damageVsEntity": 9.0,
+    "usageCount": 275,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TycholaShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

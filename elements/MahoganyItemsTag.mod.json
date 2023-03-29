@@ -1,0 +1,26 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MahoganyWood"
+      },
+      {
+        "value": "CUSTOM:MahoganyLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMahoganyWood"
+      },
+      {
+        "value": "CUSTOM:StrippedMahoganyLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "mahogany_log",
+    "namespace": "forge"
+  }
+}

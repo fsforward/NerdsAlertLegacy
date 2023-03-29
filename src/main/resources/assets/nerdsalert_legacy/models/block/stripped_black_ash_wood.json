@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nerdsalert_legacy:blocks/stripped_black_ash_log",
+    "particle": "nerdsalert_legacy:blocks/stripped_black_ash_log"
+  }
+}

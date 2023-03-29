@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_ingot"
+    },
+    "1": {
+      "item": "minecraft:gold_ingot"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_axe",
+    "count": 1
+  }
+}

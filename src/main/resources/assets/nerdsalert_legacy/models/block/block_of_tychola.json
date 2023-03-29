@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nerdsalert_legacy:blocks/block_of_tychola",
+    "particle": "nerdsalert_legacy:blocks/block_of_tychola"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:blackash_log"
+    }
+  ],
+  "result": {
+    "item": "nerdsalert_legacy:black_ash_planks",
+    "count": 4
+  }
+}

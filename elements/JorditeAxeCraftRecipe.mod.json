@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:JorditeIngot"
+      },
+      {
+        "value": "CUSTOM:JorditeIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:JorditeIngot"
+      },
+      {
+        "value": "CUSTOM:StickWithGrassRope"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StickWithGrassRope"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:JorditeAxe"
+    },
+    "name": "jordite_axe_craft_recipe",
+    "namespace": "mod"
+  }
+}

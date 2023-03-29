@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "nerdsalert_legacy:blocks/stripped_black_ash_log_top",
+    "up": "nerdsalert_legacy:blocks/stripped_black_ash_log_top",
+    "north": "nerdsalert_legacy:blocks/stripped_black_ash_log",
+    "east": "nerdsalert_legacy:blocks/stripped_black_ash_log",
+    "south": "nerdsalert_legacy:blocks/stripped_black_ash_log",
+    "west": "nerdsalert_legacy:blocks/stripped_black_ash_log",
+    "particle": "nerdsalert_legacy:blocks/stripped_black_ash_log_top"
+  }
+}

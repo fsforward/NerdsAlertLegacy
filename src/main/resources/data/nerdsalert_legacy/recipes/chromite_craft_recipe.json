@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nerdsalert_legacy:block_of_chromite"
+    }
+  ],
+  "result": {
+    "item": "nerdsalert_legacy:chromite",
+    "count": 9
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:salmon"
+    },
+    "1": {
+      "item": "nerdsalert_legacy:tin_can"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:salmon_fish_tin_can",
+    "count": 1
+  }
+}

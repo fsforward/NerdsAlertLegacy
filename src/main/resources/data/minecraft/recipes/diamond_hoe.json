@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:stick_with_grass_rope"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_hoe",
+    "count": 1
+  }
+}

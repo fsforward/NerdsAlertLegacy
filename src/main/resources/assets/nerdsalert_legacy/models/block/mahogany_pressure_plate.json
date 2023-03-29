@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "nerdsalert_legacy:blocks/mahogany_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nerdsalert_legacy:block_of_sandromyths"
+    }
+  ],
+  "result": {
+    "item": "nerdsalert_legacy:sandromyths",
+    "count": 9
+  }
+}

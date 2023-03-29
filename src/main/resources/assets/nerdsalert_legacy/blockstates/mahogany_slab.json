@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nerdsalert_legacy:block/mahogany_slab"
+    },
+    "type=top": {
+      "model": "nerdsalert_legacy:block/mahogany_slab_top"
+    },
+    "type=double": {
+      "model": "nerdsalert_legacy:block/mahogany_slab_full"
+    }
+  }
+}

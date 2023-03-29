@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sandromyths_shovel",
+    "customModelName": "Normal",
+    "name": "Sandromyths Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SandromythsTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 8.8,
+    "attackSpeed": 0.8,
+    "enchantability": 15,
+    "damageVsEntity": 6.7,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

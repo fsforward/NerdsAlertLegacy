@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "nerdsalert_legacy:money"
+    },
+    "title": {
+      "translate": "advancements.nerds_alert.title"
+    },
+    "description": {
+      "translate": "advancements.nerds_alert.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nerds_alert": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

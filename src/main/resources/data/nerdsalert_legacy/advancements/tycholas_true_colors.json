@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "nerdsalert_legacy:block_of_tychola"
+    },
+    "title": {
+      "translate": "advancements.tycholas_true_colors.title"
+    },
+    "description": {
+      "translate": "advancements.tycholas_true_colors.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tycholas_true_colors": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "nerdsalert_legacy:block_of_tychola",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "nerdsalert_legacy:radioactive_ingot"
+}

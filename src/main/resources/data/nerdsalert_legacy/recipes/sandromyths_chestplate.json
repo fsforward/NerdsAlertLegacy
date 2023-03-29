@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "2": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "4": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "6": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "7": {
+      "item": "nerdsalert_legacy:sandromyths"
+    },
+    "8": {
+      "item": "nerdsalert_legacy:sandromyths"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:sandromyths_armor_chestplate",
+    "count": 1
+  }
+}

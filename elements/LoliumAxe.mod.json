@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lolium_axe",
+    "customModelName": "Normal",
+    "name": "Lolium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoliumTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 0.85,
+    "enchantability": 14,
+    "damageVsEntity": 9.0,
+    "usageCount": 400,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LoliumShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

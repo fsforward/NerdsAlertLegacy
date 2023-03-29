@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nerdsalert_legacy:block_of_lolium"
+    }
+  ],
+  "result": {
+    "item": "nerdsalert_legacy:lolium_ingot",
+    "count": 9
+  }
+}

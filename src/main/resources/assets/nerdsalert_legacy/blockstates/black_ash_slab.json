@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "nerdsalert_legacy:block/black_ash_slab"
+    },
+    "type=top": {
+      "model": "nerdsalert_legacy:block/black_ash_slab_top"
+    },
+    "type=double": {
+      "model": "nerdsalert_legacy:block/black_ash_slab_full"
+    }
+  }
+}

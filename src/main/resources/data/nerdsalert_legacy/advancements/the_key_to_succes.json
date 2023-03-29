@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "nerdsalert_legacy:chromite"
+    },
+    "title": {
+      "translate": "advancements.the_key_to_succes.title"
+    },
+    "description": {
+      "translate": "advancements.the_key_to_succes.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_key_to_succes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "nerdsalert_legacy:chromite",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "nerdsalert_legacy:nerds_alert"
+}

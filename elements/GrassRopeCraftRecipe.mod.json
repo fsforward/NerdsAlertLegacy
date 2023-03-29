@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StringOfGrass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StringOfGrass"
+      },
+      {
+        "value": "CUSTOM:StringOfGrass"
+      },
+      {
+        "value": "CUSTOM:StringOfGrass"
+      },
+      {
+        "value": "CUSTOM:StringOfGrass"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GrassRope"
+    },
+    "name": "grass_rope_craft_recipe",
+    "namespace": "mod"
+  }
+}

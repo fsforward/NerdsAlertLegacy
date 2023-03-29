@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "nerdsalert_legacy:blocks/mahogany_trapdoor",
+    "particle": "nerdsalert_legacy:blocks/mahogany_trapdoor"
+  }
+}

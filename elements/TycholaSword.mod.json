@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "tychola_sword",
+    "customModelName": "Normal",
+    "name": "Tychola Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TycholaTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 1.6,
+    "enchantability": 8,
+    "damageVsEntity": 3.5,
+    "usageCount": 275,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TycholaShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

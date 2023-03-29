@@ -1,0 +1,26 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BlackAshWood"
+      },
+      {
+        "value": "CUSTOM:BlackAshLog"
+      },
+      {
+        "value": "CUSTOM:StrippedBlackAshWood"
+      },
+      {
+        "value": "CUSTOM:StrippedBlackAshLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "blackash_log",
+    "namespace": "forge"
+  }
+}

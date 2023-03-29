@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nerdsalert_legacy:mahogany_wood",
+    "nerdsalert_legacy:stripped_mahogany_wood",
+    "nerdsalert_legacy:mahogany_log",
+    "nerdsalert_legacy:stripped_mahogany_log"
+  ]
+}

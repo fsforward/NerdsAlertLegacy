@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:mahogany_log"
+    }
+  ],
+  "result": {
+    "item": "nerdsalert_legacy:mahogany_planks",
+    "count": 4
+  }
+}

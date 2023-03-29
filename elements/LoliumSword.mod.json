@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lolium_sword",
+    "customModelName": "Normal",
+    "name": "Lolium Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoliumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 7.0,
+    "attackSpeed": 1.6,
+    "enchantability": 14,
+    "damageVsEntity": 4.5,
+    "usageCount": 400,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LoliumShard"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

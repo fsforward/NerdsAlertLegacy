@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "nerdsalert_legacy:blocks/black_ash_planks",
+    "top": "nerdsalert_legacy:blocks/black_ash_planks",
+    "side": "nerdsalert_legacy:blocks/black_ash_planks"
+  }
+}

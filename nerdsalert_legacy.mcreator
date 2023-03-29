@@ -1,0 +1,2875 @@
+{
+  "mod_elements": [
+    {
+      "name": "TycholaOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_ore",
+      "path": "~/Blocks/Ores/Tychola"
+    },
+    {
+      "name": "LoliumOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_ore",
+      "path": "~/Blocks/Ores/Lolium"
+    },
+    {
+      "name": "JorditeOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_ore",
+      "path": "~/Blocks/Ores/Jordite"
+    },
+    {
+      "name": "SandromythsOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_ore",
+      "path": "~/Blocks/Ores/Sandromyths"
+    },
+    {
+      "name": "NetherChromiteOre",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_chromite_ore",
+      "path": "~/Blocks/Ores/Chromite"
+    },
+    {
+      "name": "Sandromyths",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths",
+      "path": "~/Items/Ores/Gems"
+    },
+    {
+      "name": "Sandromythslt",
+      "type": "loottable",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromythslt",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "Chromite",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromite",
+      "path": "~/Items/Ores/Gems"
+    },
+    {
+      "name": "Chromitelt",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromitelt",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "LoliumIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_ingot",
+      "path": "~/Items/Ores/Ingots"
+    },
+    {
+      "name": "JorditeIngot",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_ingot",
+      "path": "~/Items/Ores/Ingots"
+    },
+    {
+      "name": "TycholaTab",
+      "type": "tab",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "LoliumTab",
+      "type": "tab",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "JorditeTab",
+      "type": "tab",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "SandromythsTab",
+      "type": "tab",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "ChromiteTab",
+      "type": "tab",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromite_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "ShadiCrystal",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_crystal",
+      "path": "~/Items/Ores/Gems"
+    },
+    {
+      "name": "The5horsemen",
+      "type": "achievement",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_5horsemen",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TycholaSword",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_sword",
+      "path": "~/Items/Tools/Tychola"
+    },
+    {
+      "name": "TycholaAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_axe",
+      "path": "~/Items/Tools/Tychola"
+    },
+    {
+      "name": "TycholaShovel",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_shovel",
+      "path": "~/Items/Tools/Tychola"
+    },
+    {
+      "name": "TycholaHoe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_hoe",
+      "path": "~/Items/Tools/Tychola"
+    },
+    {
+      "name": "LoliumSword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_sword",
+      "path": "~/Items/Tools/Lolium"
+    },
+    {
+      "name": "LoliumAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_axe",
+      "path": "~/Items/Tools/Lolium"
+    },
+    {
+      "name": "LoliumPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_pickaxe",
+      "path": "~/Items/Tools/Lolium"
+    },
+    {
+      "name": "LoliumShovel",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_shovel",
+      "path": "~/Items/Tools/Lolium"
+    },
+    {
+      "name": "LoliumHoe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_hoe",
+      "path": "~/Items/Tools/Lolium"
+    },
+    {
+      "name": "JorditeSword",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_sword",
+      "path": "~/Items/Tools/Jordite"
+    },
+    {
+      "name": "JorditeAxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_axe",
+      "path": "~/Items/Tools/Jordite"
+    },
+    {
+      "name": "JorditePickaxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_pickaxe",
+      "path": "~/Items/Tools/Jordite"
+    },
+    {
+      "name": "JorditeShovel",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_shovel",
+      "path": "~/Items/Tools/Jordite"
+    },
+    {
+      "name": "JorditeHoe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_hoe",
+      "path": "~/Items/Tools/Jordite"
+    },
+    {
+      "name": "SandromythsSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_sword",
+      "path": "~/Items/Tools/Sandromyths"
+    },
+    {
+      "name": "SandromythsAxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_axe",
+      "path": "~/Items/Tools/Sandromyths"
+    },
+    {
+      "name": "SandromythsPickaxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_pickaxe",
+      "path": "~/Items/Tools/Sandromyths"
+    },
+    {
+      "name": "SandromythsShovel",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_shovel",
+      "path": "~/Items/Tools/Sandromyths"
+    },
+    {
+      "name": "SandromythsHoe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_hoe",
+      "path": "~/Items/Tools/Sandromyths"
+    },
+    {
+      "name": "TycholaPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_pickaxe",
+      "path": "~/Items/Tools/Tychola"
+    },
+    {
+      "name": "RadioactiveIngot",
+      "type": "achievement",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_ingot",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WeirdLookingCheese",
+      "type": "achievement",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird_looking_cheese",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ANewTin",
+      "type": "achievement",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_new_tin",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HowToMakeALantern",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_to_make_a_lantern",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TheKeyToSucces",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_key_to_succes",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TinCan",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_can",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "CodFishTinCan",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cod_fish_tin_can",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "SalmonFishTinCan",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salmon_fish_tin_can",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "TropicalFishTinCan",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tropical_fish_tin_can",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "PufferfishTinCanPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pufferfish_tin_can_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PufferfishTinCan",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pufferfish_tin_can",
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "FoodTab",
+      "type": "tab",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "BlankMoney",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_money",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "Money",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "MiscTab",
+      "type": "tab",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "misc_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "BlankMoneyCT",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_money_ct",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "MoneyCT",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_ct",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "TinCanCT",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_can_ct",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "CodFishTinCanCT",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cod_fish_tin_can_ct",
+      "path": "~/Recipes/Craft/Items/Food"
+    },
+    {
+      "name": "SalmonFishTinCanCT",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salmon_fish_tin_can_ct",
+      "path": "~/Recipes/Craft/Items/Food"
+    },
+    {
+      "name": "TropicalFishTinCanCT",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tropical_fish_tin_can_ct",
+      "path": "~/Recipes/Craft/Items/Food"
+    },
+    {
+      "name": "PufferfishTinCanCT",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pufferfish_tin_can_ct",
+      "path": "~/Recipes/Craft/Items/Food"
+    },
+    {
+      "name": "RadioactiveTycholaProcedure",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_tychola_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RadioactiveTycholaIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_tychola_ingot",
+      "path": "~/Items/Ores/Ingots/Tychola"
+    },
+    {
+      "name": "TycholaIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_ingot",
+      "path": "~/Items/Ores/Ingots/Tychola"
+    },
+    {
+      "name": "RadioactiveBlockOfTychola",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_block_of_tychola",
+      "path": "~/Blocks/Ores/Tychola"
+    },
+    {
+      "name": "BlockOfTychola",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tychola",
+      "path": "~/Blocks/Ores/Tychola"
+    },
+    {
+      "name": "TycholasRadioactiveStrip",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tycholas_radioactive_strip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlockOfLolium",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_lolium",
+      "path": "~/Blocks/Ores/Lolium"
+    },
+    {
+      "name": "BlockOfJordite",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_jordite",
+      "path": "~/Blocks/Ores/Jordite"
+    },
+    {
+      "name": "BlockOfSandromyths",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_sandromyths",
+      "path": "~/Blocks/Ores/Sandromyths"
+    },
+    {
+      "name": "BlockOfChromite",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_chromite",
+      "path": "~/Blocks/Ores/Chromite"
+    },
+    {
+      "name": "StringOfGrass",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "string_of_grass",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "GrassRope",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_rope",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "StickWithGrassRope",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_with_grass_rope",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "GrassRopeCraftRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_rope_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "StickWithGrassRopeCraftRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_with_grass_rope_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "Grass",
+      "type": "loottable",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "TycholasTrueColors",
+      "type": "achievement",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tycholas_true_colors",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NerdsAlert",
+      "type": "achievement",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nerds_alert",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "RadioactiveBlockOfTycholaCraftRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_block_of_tychola_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Ores"
+    },
+    {
+      "name": "BlockOfTycholaCraftRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_tychola_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Ores"
+    },
+    {
+      "name": "BlockOfLoliumCraftRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_lolium_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Ores"
+    },
+    {
+      "name": "BlockOfJorditeCraftRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_jordite_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Ores"
+    },
+    {
+      "name": "BlockOfSandromythsCraftRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_sandromyths_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Ores"
+    },
+    {
+      "name": "BlockOfChromiteCraftRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_chromite_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Ores"
+    },
+    {
+      "name": "ShadiCrystalCraftRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_crystal_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Ores/Gems"
+    },
+    {
+      "name": "RadioactiveTycholaIngotCraftRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive_tychola_ingot_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Ores/Ingots"
+    },
+    {
+      "name": "TycholaIngotCraftRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_ingot_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Ores/Ingots"
+    },
+    {
+      "name": "LoliumIngotCraftRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_ingot_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Ores/Ingots"
+    },
+    {
+      "name": "JorditeIngotCraftRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_ingot_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Ores/Ingots"
+    },
+    {
+      "name": "SandromythsCraftRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Ores/Ingots"
+    },
+    {
+      "name": "ChromiteCraftRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromite_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Ores/Ingots"
+    },
+    {
+      "name": "TycholaSwordCraftRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_sword_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Tychola"
+    },
+    {
+      "name": "TycholaAxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_axe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Tychola"
+    },
+    {
+      "name": "TycholaPickaxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_pickaxe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Tychola"
+    },
+    {
+      "name": "TycholaShovelCraftRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_shovel_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Tychola"
+    },
+    {
+      "name": "TycholaHoeCraftRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_hoe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Tychola"
+    },
+    {
+      "name": "LoliumSwordCraftRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_sword_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Lolium"
+    },
+    {
+      "name": "LoliumAxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_axe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Lolium"
+    },
+    {
+      "name": "LoliumPickaxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_pickaxe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Lolium"
+    },
+    {
+      "name": "LoliumShovelCraftRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_shovel_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Lolium"
+    },
+    {
+      "name": "LoliumHoeCraftRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_hoe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Lolium"
+    },
+    {
+      "name": "JorditeSwordCraftRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_sword_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Jordite"
+    },
+    {
+      "name": "JorditeAxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_axe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Jordite"
+    },
+    {
+      "name": "JorditePickaxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_pickaxe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Jordite"
+    },
+    {
+      "name": "JorditeShovelCraftRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_shovel_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Jordite"
+    },
+    {
+      "name": "JorditeHoeCraftRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_hoe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Jordite"
+    },
+    {
+      "name": "SandromythsSwordCraftRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_sword_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Sandromyths"
+    },
+    {
+      "name": "SandromythsAxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_axe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Sandromyths"
+    },
+    {
+      "name": "SandromythsPickaxeCraftRecipe",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_pickaxe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Sandromyths"
+    },
+    {
+      "name": "SandromythsShovelCraftRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_shovel_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Sandromyths"
+    },
+    {
+      "name": "SandromythsHoeCraftRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_hoe_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Tools/NerdsAlert_Legacy/Sandromyths"
+    },
+    {
+      "name": "TycholaIngotSmeltRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_ingot_smelt_recipe",
+      "path": "~/Recipes/Smelt/Ores"
+    },
+    {
+      "name": "LoliumIngotSmeltRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_ingot_smelt_recipe",
+      "path": "~/Recipes/Smelt/Ores"
+    },
+    {
+      "name": "JorditeIngotSmeltRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_ingot_smelt_recipe",
+      "path": "~/Recipes/Smelt/Ores"
+    },
+    {
+      "name": "SandromythsSmeltRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_smelt_recipe",
+      "path": "~/Recipes/Smelt/Ores"
+    },
+    {
+      "name": "ChromiteSmeltRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromite_smelt_recipe",
+      "path": "~/Recipes/Smelt/Ores"
+    },
+    {
+      "name": "TycholaIngotBlastRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_ingot_blast_recipe",
+      "path": "~/Recipes/Blast/Ores"
+    },
+    {
+      "name": "LoliumIngotBlastRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_ingot_blast_recipe",
+      "path": "~/Recipes/Blast/Ores"
+    },
+    {
+      "name": "JorditeIngotBlastRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_ingot_blast_recipe",
+      "path": "~/Recipes/Blast/Ores"
+    },
+    {
+      "name": "SandromythsBlastRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_blast_recipe",
+      "path": "~/Recipes/Blast/Ores"
+    },
+    {
+      "name": "ChromiteBlastRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromite_blast_recipe",
+      "path": "~/Recipes/Blast/Ores"
+    },
+    {
+      "name": "WoodenSword",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_sword",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Wood"
+    },
+    {
+      "name": "WoodenAxe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_axe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Wood"
+    },
+    {
+      "name": "WoodenPickaxe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pickaxe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Wood"
+    },
+    {
+      "name": "WoodenShovel",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_shovel",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Wood"
+    },
+    {
+      "name": "WoodenHoe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_hoe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Wood"
+    },
+    {
+      "name": "GoldenSword",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_sword",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Gold"
+    },
+    {
+      "name": "GoldenAxe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_axe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Gold"
+    },
+    {
+      "name": "GoldenPickaxe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_pickaxe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Gold"
+    },
+    {
+      "name": "GoldenShovel",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_shovel",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Gold"
+    },
+    {
+      "name": "GoldenHoe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_hoe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Gold"
+    },
+    {
+      "name": "StoneSword",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_sword",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Stone"
+    },
+    {
+      "name": "StoneAxe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Stone"
+    },
+    {
+      "name": "StonePickaxe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_pickaxe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Stone"
+    },
+    {
+      "name": "StoneShovel",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_shovel",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Stone"
+    },
+    {
+      "name": "StoneHoe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_hoe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Stone"
+    },
+    {
+      "name": "IronSword",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sword",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Iron"
+    },
+    {
+      "name": "IronAxe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_axe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Iron"
+    },
+    {
+      "name": "IronPickaxe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_pickaxe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Iron"
+    },
+    {
+      "name": "IronShovel",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_shovel",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Iron"
+    },
+    {
+      "name": "IronHoe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hoe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Iron"
+    },
+    {
+      "name": "DiamondSword",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_sword",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Diamond"
+    },
+    {
+      "name": "DiamondAxe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_axe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Diamond"
+    },
+    {
+      "name": "DiamondPickaxe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_pickaxe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Diamond"
+    },
+    {
+      "name": "DiamondShovel",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_shovel",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Diamond"
+    },
+    {
+      "name": "DiamondHoe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hoe",
+      "path": "~/Recipes/Craft/Items/Tools/Minecraft/Diamond"
+    },
+    {
+      "name": "BlackAshWood",
+      "type": "block",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_wood",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshLog",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_log",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshPlanks",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_planks",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshLeaves",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_leaves",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshStairs",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_stairs",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshSlab",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_slab",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshFence",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_fence",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshFenceGate",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_fence_gate",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshPressurePlate",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_pressure_plate",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshButton",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_button",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshItemsTag",
+      "type": "tag",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_items_tag",
+      "path": "~/Tags"
+    },
+    {
+      "name": "BlackAshWoodRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_wood_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshPlanksRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_planks_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshStairsRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_stairs_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshSlabRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_slab_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshFenceRecipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_fence_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_fence_gate_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_pressure_plate_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshButtonRecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_button_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshStickRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_stick_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAsh",
+      "type": "tab",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "MahoganyWood",
+      "type": "block",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_wood",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyLog",
+      "type": "block",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_log",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyPlanks",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_planks",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyLeaves",
+      "type": "block",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_leaves",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyStairs",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_stairs",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganySlab",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_slab",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyFence",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_fence",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyFenceGate",
+      "type": "block",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_fence_gate",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyPressurePlate",
+      "type": "block",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_pressure_plate",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyButton",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_button",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyItemsTag",
+      "type": "tag",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_items_tag",
+      "path": "~/Tags"
+    },
+    {
+      "name": "MahoganyWoodRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_wood_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyPlanksRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_planks_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyStairsRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_stairs_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganySlabRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_slab_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyFenceRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_fence_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_fence_gate_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_pressure_plate_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyButtonRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_button_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyStickRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_stick_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "Mahogany",
+      "type": "tab",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "StrippedBlackAshWood",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_black_ash_wood",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "StrippedBlackAshLog",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_black_ash_log",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "StrippedMahoganyWood",
+      "type": "block",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mahogany_wood",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "StrippedMahoganyLog",
+      "type": "block",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mahogany_log",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "BlackAshStrip",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_strip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MahoganyStrip",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_strip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "path": "~/Tags"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items",
+      "path": "~/Tags"
+    },
+    {
+      "name": "TycholaShard",
+      "type": "item",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_shard",
+      "path": "~/Items/Ores/Shards"
+    },
+    {
+      "name": "LoliumShard",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_shard",
+      "path": "~/Items/Ores/Shards"
+    },
+    {
+      "name": "JorditeShard",
+      "type": "item",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_shard",
+      "path": "~/Items/Ores/Shards"
+    },
+    {
+      "name": "SandromythsShard",
+      "type": "item",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_shard",
+      "path": "~/Items/Ores/Shards"
+    },
+    {
+      "name": "OresToShards",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_to_shards",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackAshSapling",
+      "type": "plant",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_sapling",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshSaplingGrowth",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_sapling_growth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackAshLeavesLootTable",
+      "type": "loottable",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_leaves_loot_table",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "MahoganySapling",
+      "type": "plant",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_sapling",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyLeavesLootTable",
+      "type": "loottable",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_leaves_loot_table",
+      "path": "~/LootTables"
+    },
+    {
+      "name": "MahoganySaplingGrowth",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_sapling_growth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackAshDoor",
+      "type": "block",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_door",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshTrapdoor",
+      "type": "block",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_trapdoor",
+      "path": "~/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "MahoganyDoor",
+      "type": "block",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_door",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyTrapdoor",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_trapdoor",
+      "path": "~/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "FenceBlocks",
+      "type": "tag",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fence_blocks",
+      "path": "~/Tags"
+    },
+    {
+      "name": "WoodenFenceBlocks",
+      "type": "tag",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_fence_blocks",
+      "path": "~/Tags"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "path": "~/Tags"
+    },
+    {
+      "name": "StrippedBlackAshWoodCraftRecipe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_black_ash_wood_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshDoorCraftRecipe",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_door_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "StrippedMahoganyWoodCraftRecipe",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_mahogany_wood_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyDoorCraftRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_door_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "MahoganyTrapdoorCraftRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_trapdoor_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "BlackAshTrapdoorCraftRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_trapdoor_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BlackAshTree",
+      "type": "structure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_tree",
+      "path": "~/Structures/Trees"
+    },
+    {
+      "name": "MahoganyTree",
+      "type": "structure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_tree",
+      "path": "~/Structures/Trees"
+    },
+    {
+      "name": "MahoganySaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_sapling_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "BlackAshSaplingPlantRightClicked",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_sapling_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "TycholaArmor",
+      "type": "armor",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Items/Armor"
+    },
+    {
+      "name": "LoliumArmor",
+      "type": "armor",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Items/Armor"
+    },
+    {
+      "name": "JorditeArmor",
+      "type": "armor",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Items/Armor"
+    },
+    {
+      "name": "SandromythsArmor",
+      "type": "armor",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Items/Armor"
+    },
+    {
+      "name": "NerdsBlock",
+      "type": "block",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nerds_block",
+      "path": "~/Blocks/Build"
+    },
+    {
+      "name": "TycholaHelmet",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_helmet",
+      "path": "~/Recipes/Craft/Items/Armor/Tychola"
+    },
+    {
+      "name": "TycholaChestplate",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_chestplate",
+      "path": "~/Recipes/Craft/Items/Armor/Tychola"
+    },
+    {
+      "name": "TycholaLeggings",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_leggings",
+      "path": "~/Recipes/Craft/Items/Armor/Tychola"
+    },
+    {
+      "name": "TycholaBoots",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tychola_boots",
+      "path": "~/Recipes/Craft/Items/Armor/Tychola"
+    },
+    {
+      "name": "LoliumHelmet",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_helmet",
+      "path": "~/Recipes/Craft/Items/Armor/Lolium"
+    },
+    {
+      "name": "LoliumChestplate",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_chestplate",
+      "path": "~/Recipes/Craft/Items/Armor/Lolium"
+    },
+    {
+      "name": "LoliumLeggings",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_leggings",
+      "path": "~/Recipes/Craft/Items/Armor/Lolium"
+    },
+    {
+      "name": "LoliumBoots",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lolium_boots",
+      "path": "~/Recipes/Craft/Items/Armor/Lolium"
+    },
+    {
+      "name": "JorditeHelmet",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_helmet",
+      "path": "~/Recipes/Craft/Items/Armor/Jordite"
+    },
+    {
+      "name": "JorditeChestplate",
+      "type": "recipe",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_chestplate",
+      "path": "~/Recipes/Craft/Items/Armor/Jordite"
+    },
+    {
+      "name": "JorditeLeggings",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_leggings",
+      "path": "~/Recipes/Craft/Items/Armor/Jordite"
+    },
+    {
+      "name": "JorditeBoots",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jordite_boots",
+      "path": "~/Recipes/Craft/Items/Armor/Jordite"
+    },
+    {
+      "name": "SandromythsHelmet",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_helmet",
+      "path": "~/Recipes/Craft/Items/Armor/Sandromyths"
+    },
+    {
+      "name": "SandromythsChestplate",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_chestplate",
+      "path": "~/Recipes/Craft/Items/Armor/Sandromyths"
+    },
+    {
+      "name": "SandromythsLeggings",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_leggings",
+      "path": "~/Recipes/Craft/Items/Armor/Sandromyths"
+    },
+    {
+      "name": "SandromythsBoots",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandromyths_boots",
+      "path": "~/Recipes/Craft/Items/Armor/Sandromyths"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.nerdsalert_legacy.mahogany_fence": "Mahogany Fence",
+      "block.nerdsalert_legacy.tychola_ore": "Tychola Ore",
+      "block.nerdsalert_legacy.mahogany_sapling": "Mahogany Sapling",
+      "advancements.tycholas_true_colors.descr": "Get hold of a Block of Tychola",
+      "item.nerdsalert_legacy.lolium_ingot": "Lolium Ingot",
+      "itemGroup.tabsandromyths_tab": "Sandromyths",
+      "block.nerdsalert_legacy.block_of_chromite": "Block of Chromite",
+      "item.nerdsalert_legacy.tychola_sword": "Tychola Sword",
+      "advancements.how_to_make_a_lantern.descr": "Get hold of a Sandromyths",
+      "subtitles.sandor.living": "",
+      "item.nerdsalert_legacy.tychola_armor_boots": "Tychola Boots",
+      "item.nerdsalert_legacy.tin_can": "Tin Can",
+      "block.nerdsalert_legacy.black_ash_slab": "Black Ash Slab",
+      "item.nerdsalert_legacy.tychola_axe": "Tychola Axe",
+      "advancements.radioactive_ingot.title": "Radioactive Ingot!",
+      "item.nerdsalert_legacy.stick_with_grass_rope": "Stick with Grass Rope",
+      "item.nerdsalert_legacy.lolium_armor_helmet": "Lolium Helmet",
+      "item.nerdsalert_legacy.blank_money": "Blank Money",
+      "item.nerdsalert_legacy.sandromyths_pickaxe": "Sandromyths Pickaxe",
+      "item.nerdsalert_legacy.sandromyths_armor_chestplate": "Sandromyths Chestplate",
+      "block.nerdsalert_legacy.black_ash_log": "Black Ash Log",
+      "block.nerdsalert_legacy.black_ash_button": "BlackAsh Button",
+      "block.nerdsalert_legacy.black_ash_leaves": "Black Ash Leaves",
+      "item.nerdsalert_legacy.tychola_shard": "Tychola Shard",
+      "block.nerdsalert_legacy.mahogany_button": "Mahogany Button",
+      "itemGroup.tabchromite_tab": "Chromite",
+      "item.nerdsalert_legacy.tychola_shovel": "Tychola Shovel",
+      "item.nerdsalert_legacy.lolium_shard": "Lolium Shard",
+      "block.nerdsalert_legacy.mahogany_planks": "Mahogany Planks",
+      "block.nerdsalert_legacy.black_ash_stairs": "Black Ash Stairs",
+      "block.nerdsalert_legacy.mahogany_trapdoor": "Mahogany Trapdoor",
+      "advancements.weird_looking_cheese.title": "Weird Looking Cheese...",
+      "item.nerdsalert_legacy.jordite_armor_boots": "Jordite Boots",
+      "item.nerdsalert_legacy.sandromyths_armor_leggings": "Sandromyths Leggings",
+      "item.nerdsalert_legacy.chromite": "Chromite",
+      "item.nerdsalert_legacy.tychola_ingot": "Tychola Ingot",
+      "item.nerdsalert_legacy.tychola_pickaxe": "Tychola Pickaxe",
+      "advancements.the_5horsemen.title": "The 4... 5 horsemen!",
+      "block.nerdsalert_legacy.radioactive_block_of_tychola": "Radioactive Block of Tychola",
+      "block.nerdsalert_legacy.stripped_mahogany_log": "Stripped Mahogany Log",
+      "item.nerdsalert_legacy.jordite_shovel": "Jordite Shovel",
+      "advancements.the_key_to_succes.title": "The Key To Succes!",
+      "advancements.nerds_alert.title": "NerdsAlert!",
+      "item.nerdsalert_legacy.lolium_shovel": "Lolium Shovel",
+      "item.nerdsalert_legacy.sandromyths": "Sandromyths",
+      "block.nerdsalert_legacy.mahogany_pressure_plate": "Mahogany Pressure Plate",
+      "item.nerdsalert_legacy.cod_fish_tin_can": "Cod Fish Tin Can",
+      "item.nerdsalert_legacy.shadi_crystal": "Shadi Crystal",
+      "block.nerdsalert_legacy.mahogany_log": "Mahogany Log",
+      "item.nerdsalert_legacy.jordite_armor_helmet": "Jordite Helmet",
+      "itemGroup.tablolium_tab": "Lolium",
+      "advancements.a_new_tin.descr": "Get hold of a Jordite Ingot",
+      "block.nerdsalert_legacy.stripped_black_ash_log": "Stripped Black Ash Log",
+      "block.nerdsalert_legacy.black_ash_fence_gate": "BlackAsh Fence Gate",
+      "block.nerdsalert_legacy.nerds_block": "Nerds Block",
+      "item.nerdsalert_legacy.sandromyths_axe": "Sandromyths Axe",
+      "subtitles.sandor.hurt": "",
+      "item.nerdsalert_legacy.pufferfish_tin_can": "Pufferfish Tin Can",
+      "item.nerdsalert_legacy.lolium_armor_leggings": "Lolium Leggings",
+      "itemGroup.tabfood_tab": "Food",
+      "block.nerdsalert_legacy.black_ash_pressure_plate": "BlackAsh Pressure Plate",
+      "item.nerdsalert_legacy.lolium_pickaxe": "Lolium Pickaxe",
+      "advancements.tycholas_true_colors.title": "Tychola\u0027s True Colors!",
+      "block.nerdsalert_legacy.stripped_mahogany_wood": "Stripped Mahogany Wood",
+      "item.nerdsalert_legacy.sandromyths_shard": "Sandromyths Shard",
+      "item.nerdsalert_legacy.sandromyths_hoe": "Sandromyths Hoe",
+      "block.nerdsalert_legacy.block_of_jordite": "Block of Jordite",
+      "item.nerdsalert_legacy.jordite_hoe": "Jordite Hoe",
+      "block.nerdsalert_legacy.black_ash_fence": "Black Ash Fence",
+      "block.nerdsalert_legacy.nether_chromite_ore": "Nether Chromite Ore",
+      "block.nerdsalert_legacy.mahogany_leaves": "Mahogany Leaves",
+      "item.nerdsalert_legacy.tropical_fish_tin_can": "Tropical Fish Tin Can",
+      "block.nerdsalert_legacy.block_of_lolium": "Block of Lolium",
+      "item.nerdsalert_legacy.jordite_ingot": "Jordite Ingot",
+      "item.nerdsalert_legacy.jordite_armor_chestplate": "Jordite Chestplate",
+      "item.nerdsalert_legacy.lolium_hoe": "Lolium Hoe",
+      "advancements.radioactive_ingot.descr": "Get hold of a Tychola Ingot",
+      "item.nerdsalert_legacy.lolium_armor_boots": "Lolium Boots",
+      "itemGroup.tabmisc_tab": "Misc",
+      "item.nerdsalert_legacy.radioactive_tychola_ingot": "Radioactive Tychola Ingot",
+      "block.nerdsalert_legacy.black_ash_door": "Black Ash Door",
+      "item.nerdsalert_legacy.jordite_armor_leggings": "Jordite Leggings",
+      "item.nerdsalert_legacy.string_of_grass": "String of Grass",
+      "itemGroup.tabtychola_tab": "Tychola",
+      "block.nerdsalert_legacy.black_ash_sapling": "Black Ash Sapling",
+      "block.nerdsalert_legacy.mahogany_stairs": "Mahogany Stairs",
+      "block.nerdsalert_legacy.mahogany_slab": "Mahogany Slab",
+      "advancements.a_new_tin.title": "A New Tin?",
+      "item.nerdsalert_legacy.grass_rope": "Grass Rope",
+      "subtitles.sandor.death": "",
+      "block.nerdsalert_legacy.black_ash_planks": "Black Ash Planks",
+      "block.nerdsalert_legacy.black_ash_wood": "Black Ash Wood",
+      "itemGroup.tabblack_ash": "Black Ash",
+      "itemGroup.tabjordite_tab": "Jordite",
+      "item.nerdsalert_legacy.tychola_armor_chestplate": "Tychola Chestplate",
+      "item.nerdsalert_legacy.sandromyths_armor_helmet": "Sandromyths Helmet",
+      "advancements.the_5horsemen.descr": "Get hold of a Shadi Crystal",
+      "item.nerdsalert_legacy.jordite_axe": "Jordite Axe",
+      "block.nerdsalert_legacy.stripped_black_ash_wood": "Stripped Black Ash Wood",
+      "block.nerdsalert_legacy.sandromyths_ore": "Sandromyths Ore",
+      "item.nerdsalert_legacy.lolium_axe": "Lolium Axe",
+      "block.nerdsalert_legacy.black_ash_trapdoor": "Black Ash Trapdoor",
+      "item.nerdsalert_legacy.lolium_sword": "Lolium Sword",
+      "block.nerdsalert_legacy.mahogany_door": "Mahogany Door",
+      "itemGroup.tabmahogany": "Mahogany",
+      "advancements.weird_looking_cheese.descr": "Get hold of a Lolium Ingot",
+      "item.nerdsalert_legacy.sandromyths_shovel": "Sandromyths Shovel",
+      "subtitles.sandor.ambience": "",
+      "item.nerdsalert_legacy.sandromyths_armor_boots": "Sandromyths Boots",
+      "item.nerdsalert_legacy.jordite_pickaxe": "Jordite Pickaxe",
+      "advancements.the_key_to_succes.descr": "Get hold of a Chromite",
+      "advancements.nerds_alert.descr": "Thanks for downloading the NerdsAlert Legacy mod!",
+      "item.nerdsalert_legacy.jordite_sword": "Jordite Sword",
+      "block.nerdsalert_legacy.block_of_sandromyths": "Block of Sandromyths",
+      "block.nerdsalert_legacy.mahogany_wood": "Mahogany Wood",
+      "item.nerdsalert_legacy.tychola_armor_helmet": "Tychola Helmet",
+      "block.nerdsalert_legacy.lolium_ore": "Lolium Ore",
+      "block.nerdsalert_legacy.mahogany_fence_gate": "Mahogany Fence Gate",
+      "block.nerdsalert_legacy.jordite_ore": "Jordite Ore",
+      "item.nerdsalert_legacy.jordite_shard": "Jordite Shard",
+      "item.nerdsalert_legacy.sandromyths_sword": "Sandromyths Sword",
+      "advancements.how_to_make_a_lantern.title": "How To Make A Lantern?",
+      "item.nerdsalert_legacy.tychola_armor_leggings": "Tychola Leggings",
+      "item.nerdsalert_legacy.tychola_hoe": "Tychola Hoe",
+      "item.nerdsalert_legacy.salmon_fish_tin_can": "Salmon Fish Tin Can",
+      "item.nerdsalert_legacy.lolium_armor_chestplate": "Lolium Chestplate",
+      "block.nerdsalert_legacy.block_of_tychola": "Block of Tychola",
+      "item.nerdsalert_legacy.money": "Money"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Ores",
+            "children": [
+              {
+                "name": "Tychola",
+                "children": []
+              },
+              {
+                "name": "Lolium",
+                "children": []
+              },
+              {
+                "name": "Jordite",
+                "children": []
+              },
+              {
+                "name": "Sandromyths",
+                "children": []
+              },
+              {
+                "name": "Chromite",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Trees",
+            "children": [
+              {
+                "name": "BlackAsh",
+                "children": []
+              },
+              {
+                "name": "Mahogany",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Build",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Ores",
+            "children": [
+              {
+                "name": "Ingots",
+                "children": [
+                  {
+                    "name": "Tychola",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Gems",
+                "children": []
+              },
+              {
+                "name": "Shards",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Tools",
+            "children": [
+              {
+                "name": "Tychola",
+                "children": []
+              },
+              {
+                "name": "Lolium",
+                "children": []
+              },
+              {
+                "name": "Jordite",
+                "children": []
+              },
+              {
+                "name": "Sandromyths",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Food",
+            "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
+          },
+          {
+            "name": "Armor",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Craft",
+            "children": [
+              {
+                "name": "Blocks",
+                "children": [
+                  {
+                    "name": "Ores",
+                    "children": []
+                  },
+                  {
+                    "name": "Trees",
+                    "children": [
+                      {
+                        "name": "BlackAsh",
+                        "children": []
+                      },
+                      {
+                        "name": "Mahogany",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Items",
+                "children": [
+                  {
+                    "name": "Ores",
+                    "children": [
+                      {
+                        "name": "Gems",
+                        "children": []
+                      },
+                      {
+                        "name": "Ingots",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tools",
+                    "children": [
+                      {
+                        "name": "NerdsAlert_Legacy",
+                        "children": [
+                          {
+                            "name": "Tychola",
+                            "children": []
+                          },
+                          {
+                            "name": "Lolium",
+                            "children": []
+                          },
+                          {
+                            "name": "Jordite",
+                            "children": []
+                          },
+                          {
+                            "name": "Sandromyths",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Minecraft",
+                        "children": [
+                          {
+                            "name": "Wood",
+                            "children": []
+                          },
+                          {
+                            "name": "Gold",
+                            "children": []
+                          },
+                          {
+                            "name": "Stone",
+                            "children": []
+                          },
+                          {
+                            "name": "Iron",
+                            "children": []
+                          },
+                          {
+                            "name": "Diamond",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Food",
+                    "children": []
+                  },
+                  {
+                    "name": "Misc",
+                    "children": []
+                  },
+                  {
+                    "name": "Armor",
+                    "children": [
+                      {
+                        "name": "Tychola",
+                        "children": []
+                      },
+                      {
+                        "name": "Lolium",
+                        "children": []
+                      },
+                      {
+                        "name": "Jordite",
+                        "children": []
+                      },
+                      {
+                        "name": "Sandromyths",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Smelt",
+            "children": [
+              {
+                "name": "Ores",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Blast",
+            "children": [
+              {
+                "name": "Ores",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CreativeTabs",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "LootTables",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": [
+          {
+            "name": "Trees",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nerdsalert_legacy",
+    "modName": "NerdsAlert Legacy",
+    "version": "1.4.0.0",
+    "author": "fsForward",
+    "websiteURL": "https://minecraft.fsforward.com",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Mod by fsForward",
+    "modElementsPackage": "net.mcreator.nerdsalertlegacy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

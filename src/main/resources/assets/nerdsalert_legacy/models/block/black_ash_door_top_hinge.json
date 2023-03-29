@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "nerdsalert_legacy:blocks/black_ash_door_bottom",
+    "top": "nerdsalert_legacy:blocks/black_ash_door_top"
+  }
+}

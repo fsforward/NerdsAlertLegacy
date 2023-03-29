@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "nerdsalert_legacy:blocks/mahogany_sapling",
+    "particle": "nerdsalert_legacy:blocks/mahogany_sapling"
+  }
+}

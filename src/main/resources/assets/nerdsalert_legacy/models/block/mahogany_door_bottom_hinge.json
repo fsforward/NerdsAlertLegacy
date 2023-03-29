@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "nerdsalert_legacy:blocks/mahogany_door_bottom",
+    "top": "nerdsalert_legacy:blocks/mahogany_door_top"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "nerdsalert_legacy:blank_money"
+    },
+    "1": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:money",
+    "count": 1
+  }
+}

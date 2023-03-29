@@ -1,0 +1,26 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BlackAshLog"
+      },
+      {
+        "value": "CUSTOM:MahoganyLog"
+      },
+      {
+        "value": "CUSTOM:StrippedBlackAshLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMahoganyLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

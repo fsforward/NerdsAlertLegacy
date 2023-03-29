@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nerdsalert_legacy:block_of_jordite"
+    }
+  ],
+  "result": {
+    "item": "nerdsalert_legacy:jordite_ingot",
+    "count": 9
+  }
+}

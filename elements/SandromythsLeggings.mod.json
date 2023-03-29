@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Sandromyths"
+      },
+      {
+        "value": "CUSTOM:Sandromyths"
+      },
+      {
+        "value": "CUSTOM:Sandromyths"
+      },
+      {
+        "value": "CUSTOM:Sandromyths"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Sandromyths"
+      },
+      {
+        "value": "CUSTOM:Sandromyths"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Sandromyths"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SandromythsArmor.legs"
+    },
+    "name": "sandromyths_leggings",
+    "namespace": "mod"
+  }
+}
