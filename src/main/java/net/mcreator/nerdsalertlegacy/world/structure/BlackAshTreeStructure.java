@@ -96,8 +96,6 @@ public class BlackAshTreeStructure {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("swamp").equals(event.getName()))
 			biomeCriteria = true;
-		if (new ResourceLocation("nerdsalert_legacy:shadowed_black_ash_woods").equals(event.getName()))
-			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);

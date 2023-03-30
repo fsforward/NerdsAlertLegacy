@@ -18,7 +18,7 @@ public class SandromythsSwordItem extends NerdsalertLegacyModElements.ModElement
 	public static final Item block = null;
 
 	public SandromythsSwordItem(NerdsalertLegacyModElements instance) {
-		super(instance, 31);
+		super(instance, 38);
 	}
 
 	@Override

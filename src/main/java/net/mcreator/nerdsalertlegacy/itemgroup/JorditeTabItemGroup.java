@@ -13,7 +13,7 @@ import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class JorditeTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public JorditeTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 53);
+		super(instance, 96);
 	}
 
 	@Override

@@ -17,7 +17,7 @@ public class TycholaShardItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public TycholaShardItem(NerdsalertLegacyModElements instance) {
-		super(instance, 241);
+		super(instance, 6);
 	}
 
 	@Override

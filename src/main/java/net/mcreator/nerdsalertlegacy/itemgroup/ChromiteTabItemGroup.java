@@ -13,7 +13,7 @@ import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class ChromiteTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public ChromiteTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 55);
+		super(instance, 98);
 	}
 
 	@Override

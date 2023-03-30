@@ -18,7 +18,7 @@ public class JorditeHoeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public JorditeHoeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 27);
+		super(instance, 32);
 	}
 
 	@Override

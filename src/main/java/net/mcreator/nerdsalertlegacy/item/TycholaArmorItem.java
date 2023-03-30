@@ -30,7 +30,7 @@ public class TycholaArmorItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item boots = null;
 
 	public TycholaArmorItem(NerdsalertLegacyModElements instance) {
-		super(instance, 271);
+		super(instance, 12);
 	}
 
 	@Override

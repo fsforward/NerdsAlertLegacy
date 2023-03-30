@@ -12,12 +12,12 @@ import net.mcreator.nerdsalertlegacy.itemgroup.MiscTabItemGroup;
 import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 
 @NerdsalertLegacyModElements.ModElement.Tag
-public class MoneyItem extends NerdsalertLegacyModElements.ModElement {
-	@ObjectHolder("nerdsalert_legacy:money")
+public class FiveFSMItem extends NerdsalertLegacyModElements.ModElement {
+	@ObjectHolder("nerdsalert_legacy:five_fsm")
 	public static final Item block = null;
 
-	public MoneyItem(NerdsalertLegacyModElements instance) {
-		super(instance, 41);
+	public FiveFSMItem(NerdsalertLegacyModElements instance) {
+		super(instance, 57);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class MoneyItem extends NerdsalertLegacyModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MiscTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("money");
+			setRegistryName("five_fsm");
 		}
 
 		@Override

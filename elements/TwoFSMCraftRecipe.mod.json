@@ -19,16 +19,16 @@
         "value": ""
       },
       {
-        "value": "Items.DYE#2"
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:BlankFSM"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
       },
       {
         "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.PAPER"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BlankMoney"
+      "value": "CUSTOM:TwoFSM"
     },
-    "name": "blank_money_ct",
+    "name": "two_fsm_craft_recipe",
     "namespace": "mod"
   }
 }

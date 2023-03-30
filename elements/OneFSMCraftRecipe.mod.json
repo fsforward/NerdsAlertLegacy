@@ -22,25 +22,25 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:BlankFSM"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:BlankMoney"
+        "value": ""
       },
       {
-        "value": "Items.GOLD_NUGGET"
+        "value": "CUSTOM:LoliumShard"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Money"
+      "value": "CUSTOM:OneFSM"
     },
-    "name": "money_ct",
+    "name": "one_fsm_craft_recipe",
     "namespace": "mod"
   }
 }

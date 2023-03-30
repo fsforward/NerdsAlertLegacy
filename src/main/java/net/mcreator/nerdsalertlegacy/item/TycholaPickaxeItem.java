@@ -18,7 +18,7 @@ public class TycholaPickaxeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public TycholaPickaxeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override

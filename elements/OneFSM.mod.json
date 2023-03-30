@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "money",
+    "texture": "one_fsm",
     "customModelName": "Normal",
-    "name": "Money",
+    "name": "One fsM",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:MiscTab"

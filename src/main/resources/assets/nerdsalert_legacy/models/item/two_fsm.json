@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nerdsalert_legacy:items/money"
+    "layer0": "nerdsalert_legacy:items/two_fsm"
   }
 }

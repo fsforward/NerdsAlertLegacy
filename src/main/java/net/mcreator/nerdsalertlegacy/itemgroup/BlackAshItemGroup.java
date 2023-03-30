@@ -13,7 +13,7 @@ import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class BlackAshItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public BlackAshItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 211);
+		super(instance, 198);
 	}
 
 	@Override

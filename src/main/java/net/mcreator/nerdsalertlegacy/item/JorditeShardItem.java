@@ -17,7 +17,7 @@ public class JorditeShardItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public JorditeShardItem(NerdsalertLegacyModElements instance) {
-		super(instance, 243);
+		super(instance, 26);
 	}
 
 	@Override

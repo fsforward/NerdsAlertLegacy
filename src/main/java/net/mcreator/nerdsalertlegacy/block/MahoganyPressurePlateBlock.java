@@ -29,7 +29,7 @@ public class MahoganyPressurePlateBlock extends NerdsalertLegacyModElements.ModE
 	public static final Block block = null;
 
 	public MahoganyPressurePlateBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 220);
+		super(instance, 85);
 	}
 
 	@Override

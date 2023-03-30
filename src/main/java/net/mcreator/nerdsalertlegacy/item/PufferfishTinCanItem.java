@@ -27,7 +27,7 @@ public class PufferfishTinCanItem extends NerdsalertLegacyModElements.ModElement
 	public static final Item block = null;
 
 	public PufferfishTinCanItem(NerdsalertLegacyModElements instance) {
-		super(instance, 48);
+		super(instance, 61);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class TycholaHoeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public TycholaHoeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 10);
+		super(instance, 11);
 	}
 
 	@Override

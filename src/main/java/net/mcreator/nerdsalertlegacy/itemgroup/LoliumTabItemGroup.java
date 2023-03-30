@@ -13,7 +13,7 @@ import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class LoliumTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public LoliumTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 52);
+		super(instance, 95);
 	}
 
 	@Override

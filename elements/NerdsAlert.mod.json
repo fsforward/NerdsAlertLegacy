@@ -5,7 +5,7 @@
     "achievementName": "NerdsAlert!",
     "achievementDescription": "Thanks for downloading the NerdsAlert Legacy mod!",
     "achievementIcon": {
-      "value": "CUSTOM:Money"
+      "value": "CUSTOM:BlankFSM"
     },
     "background": "Default",
     "disableDisplay": false,

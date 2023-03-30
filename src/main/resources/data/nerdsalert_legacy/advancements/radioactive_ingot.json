@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "item": "nerdsalert_legacy:tychola_ingot",
+            "item": "nerdsalert_legacy:radioactive_tychola_ingot",
             "count": {
               "min": 1,
               "max": 64

@@ -13,7 +13,7 @@ import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class FoodTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public FoodTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 104);
+		super(instance, 106);
 	}
 
 	@Override

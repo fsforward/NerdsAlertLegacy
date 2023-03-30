@@ -29,7 +29,7 @@ public class BlackAshPressurePlateBlock extends NerdsalertLegacyModElements.ModE
 	public static final Block block = null;
 
 	public BlackAshPressurePlateBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 199);
+		super(instance, 70);
 	}
 
 	@Override

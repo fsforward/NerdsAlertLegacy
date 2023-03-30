@@ -6,14 +6,14 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:green_dye"
+      "item": "nerdsalert_legacy:blank_fsm"
     },
     "1": {
-      "item": "minecraft:paper"
+      "item": "nerdsalert_legacy:lolium_shard"
     }
   },
   "result": {
-    "item": "nerdsalert_legacy:blank_money",
+    "item": "nerdsalert_legacy:one_fsm",
     "count": 1
   }
 }

@@ -17,7 +17,7 @@ public class MusicDiscLanternItem extends NerdsalertLegacyModElements.ModElement
 	public static final Item block = null;
 
 	public MusicDiscLanternItem(NerdsalertLegacyModElements instance) {
-		super(instance, 292);
+		super(instance, 52);
 	}
 
 	@Override

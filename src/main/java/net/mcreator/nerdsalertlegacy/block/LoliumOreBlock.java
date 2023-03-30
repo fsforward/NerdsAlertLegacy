@@ -48,7 +48,7 @@ public class LoliumOreBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public LoliumOreBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

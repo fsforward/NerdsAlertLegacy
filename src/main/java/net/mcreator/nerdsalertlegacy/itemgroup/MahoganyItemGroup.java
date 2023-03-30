@@ -13,7 +13,7 @@ import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class MahoganyItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public MahoganyItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 232);
+		super(instance, 209);
 	}
 
 	@Override

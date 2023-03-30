@@ -33,7 +33,7 @@ public class StrippedBlackAshLogBlock extends NerdsalertLegacyModElements.ModEle
 	public static final Block block = null;
 
 	public StrippedBlackAshLogBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 234);
+		super(instance, 73);
 	}
 
 	@Override

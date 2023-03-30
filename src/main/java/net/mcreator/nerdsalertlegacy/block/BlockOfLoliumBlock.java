@@ -27,7 +27,7 @@ public class BlockOfLoliumBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public BlockOfLoliumBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 12);
+		super(instance, 14);
 	}
 
 	@Override

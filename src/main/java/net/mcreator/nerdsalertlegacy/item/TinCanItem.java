@@ -18,7 +18,7 @@ public class TinCanItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public TinCanItem(NerdsalertLegacyModElements instance) {
-		super(instance, 22);
+		super(instance, 27);
 	}
 
 	@Override

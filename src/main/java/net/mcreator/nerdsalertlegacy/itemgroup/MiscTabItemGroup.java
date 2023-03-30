@@ -13,7 +13,7 @@ import net.mcreator.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class MiscTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public MiscTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 105);
+		super(instance, 107);
 	}
 
 	@Override

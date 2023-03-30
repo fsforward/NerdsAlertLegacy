@@ -1,18 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01"
+    "0",
+    "1"
   ],
   "key": {
     "0": {
-      "item": "nerdsalert_legacy:blank_money"
+      "item": "minecraft:green_dye"
     },
     "1": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:paper"
     }
   },
   "result": {
-    "item": "nerdsalert_legacy:money",
+    "item": "nerdsalert_legacy:blank_fsm",
     "count": 1
   }
 }

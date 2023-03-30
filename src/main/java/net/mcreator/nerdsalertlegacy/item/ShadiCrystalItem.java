@@ -17,7 +17,7 @@ public class ShadiCrystalItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public ShadiCrystalItem(NerdsalertLegacyModElements instance) {
-		super(instance, 39);
+		super(instance, 47);
 	}
 
 	@Override
