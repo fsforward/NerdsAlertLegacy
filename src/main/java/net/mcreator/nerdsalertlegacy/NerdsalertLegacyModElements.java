@@ -46,6 +46,10 @@ public class NerdsalertLegacyModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public NerdsalertLegacyModElements() {
+		sounds.put(new ResourceLocation("nerdsalert_legacy", "music.instrumental.nerdsalert.lantern"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("nerdsalert_legacy", "music.instrumental.nerdsalert.lantern")));
+		sounds.put(new ResourceLocation("nerdsalert_legacy", "music.instrumental.fsforward.watch_my_body_drop"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("nerdsalert_legacy", "music.instrumental.fsforward.watch_my_body_drop")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("nerdsalert_legacy").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

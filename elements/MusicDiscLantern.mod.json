@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_lantern",
+    "name": "Music Disc Lantern",
+    "description": "NerdsAlert - Lantern [instrumental]",
+    "creativeTab": {
+      "value": "CUSTOM:MiscTab"
+    },
+    "music": {
+      "value": "CUSTOM:music.instrumental.nerdsalert.lantern"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
