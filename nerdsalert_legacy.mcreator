@@ -2446,6 +2446,15 @@
       "locked_code": false,
       "registry_name": "music_disc_watch_my_body_drop",
       "path": "~/Items/Misc"
+    },
+    {
+      "name": "MusicDiscLanternCraftRecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_lantern_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
     }
   ],
   "variable_elements": [],
