@@ -2525,15 +2525,15 @@
     "en_us": {
       "block.nerdsalert_legacy.mahogany_fence": "Mahogany Fence",
       "block.nerdsalert_legacy.tychola_ore": "Tychola Ore",
-      "advancements.tycholas_true_colors.descr": "Get hold of a Block of Tychola",
       "block.nerdsalert_legacy.mahogany_sapling": "Mahogany Sapling",
+      "advancements.tycholas_true_colors.descr": "Get hold of a Block of Tychola",
       "item.nerdsalert_legacy.lolium_ingot": "Lolium Ingot",
       "item.nerdsalert_legacy.one_fsm": "One fsM",
       "itemGroup.tabsandromyths_tab": "Sandromyths",
       "block.nerdsalert_legacy.block_of_chromite": "Block of Chromite",
-      "item.nerdsalert_legacy.tychola_sword": "Tychola Sword",
-      "advancements.how_to_make_a_lantern.descr": "Get hold of a Sandromyths",
       "subtitles.sandor.living": "",
+      "advancements.how_to_make_a_lantern.descr": "Get hold of a Sandromyths",
+      "item.nerdsalert_legacy.tychola_sword": "Tychola Sword",
       "item.nerdsalert_legacy.tychola_armor_boots": "Tychola Boots",
       "item.nerdsalert_legacy.music_disc_watch_my_body_drop.desc": "fsForward - Watch My Body Drop [instrumental]",
       "item.nerdsalert_legacy.tin_can": "Tin Can",
@@ -2964,7 +2964,7 @@
   "workspaceSettings": {
     "modid": "nerdsalert_legacy",
     "modName": "NerdsAlert Legacy",
-    "version": "1.4.0.0",
+    "version": "1.5.0.0",
     "author": "fsForward",
     "websiteURL": "https://minecraft.fsforward.com",
     "license": "All Rights Reserved",
@@ -2976,7 +2976,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
     "credits": "Mod by fsForward",
-    "modElementsPackage": "net.mcreator.nerdsalertlegacy",
+    "modElementsPackage": "com.fsforward.nerdsalertlegacy",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200234517

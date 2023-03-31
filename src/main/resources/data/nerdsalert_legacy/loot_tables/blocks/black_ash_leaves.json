@@ -71,7 +71,7 @@
         {
           "type": "minecraft:item",
           "name": "nerdsalert_legacy:black_ash_sapling",
-          "weight": 2,
+          "weight": 12,
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -103,7 +103,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 90,
+          "weight": 80,
           "conditions": [
             {
               "condition": "minecraft:inverted",

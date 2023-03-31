@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:MahoganySapling"
             },
-            "weight": 2,
+            "weight": 12,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -44,7 +44,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 95,
+            "weight": 85,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
