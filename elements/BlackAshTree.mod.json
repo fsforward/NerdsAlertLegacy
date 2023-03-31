@@ -9,7 +9,7 @@
     "minCountPerChunk": 1,
     "maxCountPerChunk": 3,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 0,
+    "spawnHeightOffset": 4,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -17,17 +17,14 @@
     ],
     "restrictionBlocks": [
       {
-        "value": "Blocks.GRASS"
+        "value": "Blocks.DIRT#0"
       }
     ],
     "restrictionBiomes": [
       {
         "value": "swamp"
-      },
-      {
-        "value": "CUSTOM:ShadowedBlackAshWoods"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR"
   }
 }
