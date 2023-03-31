@@ -9,7 +9,7 @@
     "minCountPerChunk": 1,
     "maxCountPerChunk": 3,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 4,
+    "spawnHeightOffset": 0,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -17,7 +17,7 @@
     ],
     "restrictionBlocks": [
       {
-        "value": "Blocks.DIRT#0"
+        "value": "Blocks.GRASS"
       }
     ],
     "restrictionBiomes": [
@@ -25,6 +25,6 @@
         "value": "swamp"
       }
     ],
-    "ignoreBlocks": "AIR"
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

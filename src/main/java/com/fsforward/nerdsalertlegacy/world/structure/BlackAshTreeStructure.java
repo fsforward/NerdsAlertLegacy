@@ -61,13 +61,13 @@ public class BlackAshTreeStructure {
 							j -= 1;
 							BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 							boolean blockCriteria = false;
-							if (blockAt.getBlock() == Blocks.DIRT)
+							if (blockAt.getBlock() == Blocks.GRASS_BLOCK)
 								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + 4, k + 0);
+							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
@@ -75,8 +75,10 @@ public class BlackAshTreeStructure {
 									.getTemplateDefaulted(new ResourceLocation("nerdsalert_legacy", "blackashtree"));
 							if (template == null)
 								return false;
-							template.func_237144_a_(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-									.addProcessor(BlockIgnoreStructureProcessor.AIR).setChunk(null).setIgnoreEntities(false), random);
+							template.func_237144_a_(world, spawnTo,
+									new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
+											.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false),
+									random);
 						}
 					}
 					return true;
