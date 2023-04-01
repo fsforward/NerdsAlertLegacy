@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class MahoganyItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public MahoganyItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 209);
+		super(instance, 211);
 	}
 
 	@Override

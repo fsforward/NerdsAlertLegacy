@@ -1,10 +1,10 @@
 package com.fsforward.nerdsalertlegacy.procedures;
 
-import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.GameType;
 import net.minecraft.util.math.BlockPos;
@@ -12,6 +12,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.network.play.NetworkPlayerInfo;
@@ -115,10 +116,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(TycholaShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index0 = 0; index0 < (int) (4); index0++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(TycholaShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
@@ -145,10 +149,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.OFF_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(TycholaShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index1 = 0; index1 < (int) (4); index1++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(TycholaShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
@@ -175,10 +182,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(LoliumShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index2 = 0; index2 < (int) (4); index2++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(LoliumShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
@@ -205,10 +215,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.OFF_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(LoliumShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index3 = 0; index3 < (int) (4); index3++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(LoliumShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
@@ -235,10 +248,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(JorditeShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index4 = 0; index4 < (int) (4); index4++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(JorditeShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
@@ -265,10 +281,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.OFF_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(JorditeShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index5 = 0; index5 < (int) (4); index5++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(JorditeShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
@@ -295,10 +314,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.MAIN_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(SandromythsShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index6 = 0; index6 < (int) (4); index6++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(SandromythsShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		} else if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY)
@@ -325,10 +347,13 @@ public class OresToShardsProcedure {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.OFF_HAND, true);
 				}
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(SandromythsShardItem.block);
-					_setstack.setCount((int) 4);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+				for (int index7 = 0; index7 < (int) (4); index7++) {
+					if (world instanceof World && !world.isRemote()) {
+						ItemEntity entityToSpawn = new ItemEntity((World) world, (entity.getPosX()), (entity.getPosY()), (entity.getPosZ()),
+								new ItemStack(SandromythsShardItem.block));
+						entityToSpawn.setPickupDelay((int) 10);
+						world.addEntity(entityToSpawn);
+					}
 				}
 			}
 		}

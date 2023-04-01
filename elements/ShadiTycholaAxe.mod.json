@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_tychola_axe",
+    "customModelName": "Normal",
+    "name": "Shadi Tychola Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TycholaTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 7.5,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 13.5,
+    "usageCount": 412,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "IsThundering"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      },
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_tychola_hoe",
+    "customModelName": "Normal",
+    "name": "Shadi Tychola Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TycholaTab"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 2,
+    "efficiency": 7.25,
+    "attackSpeed": 2.7,
+    "enchantability": 12,
+    "damageVsEntity": 3.0,
+    "usageCount": 412,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "IsThundering"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      },
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

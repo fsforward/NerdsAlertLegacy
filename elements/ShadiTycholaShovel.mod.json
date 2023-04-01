@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_tychola_shovel",
+    "customModelName": "Normal",
+    "name": "Shadi Tychola Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TycholaTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 2,
+    "efficiency": 6.5,
+    "attackSpeed": 1.2,
+    "enchantability": 12,
+    "damageVsEntity": 6.115,
+    "usageCount": 412,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "IsThundering"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      },
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -12,7 +12,7 @@
     {
       "name": "LoliumOre",
       "type": "block",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_ore",
@@ -21,7 +21,7 @@
     {
       "name": "JorditeOre",
       "type": "block",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_ore",
@@ -30,7 +30,7 @@
     {
       "name": "SandromythsOre",
       "type": "block",
-      "sortid": 34,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_ore",
@@ -39,7 +39,7 @@
     {
       "name": "NetherChromiteOre",
       "type": "block",
-      "sortid": 44,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_chromite_ore",
@@ -48,7 +48,7 @@
     {
       "name": "Sandromyths",
       "type": "item",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths",
@@ -57,7 +57,7 @@
     {
       "name": "Sandromythslt",
       "type": "loottable",
-      "sortid": 92,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromythslt",
@@ -66,7 +66,7 @@
     {
       "name": "Chromite",
       "type": "item",
-      "sortid": 46,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chromite",
@@ -75,7 +75,7 @@
     {
       "name": "Chromitelt",
       "type": "loottable",
-      "sortid": 93,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chromitelt",
@@ -84,7 +84,7 @@
     {
       "name": "LoliumIngot",
       "type": "item",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_ingot",
@@ -93,7 +93,7 @@
     {
       "name": "JorditeIngot",
       "type": "item",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_ingot",
@@ -102,7 +102,7 @@
     {
       "name": "TycholaTab",
       "type": "tab",
-      "sortid": 94,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_tab",
@@ -111,7 +111,7 @@
     {
       "name": "LoliumTab",
       "type": "tab",
-      "sortid": 95,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_tab",
@@ -120,7 +120,7 @@
     {
       "name": "JorditeTab",
       "type": "tab",
-      "sortid": 96,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_tab",
@@ -129,7 +129,7 @@
     {
       "name": "SandromythsTab",
       "type": "tab",
-      "sortid": 97,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_tab",
@@ -138,7 +138,7 @@
     {
       "name": "ChromiteTab",
       "type": "tab",
-      "sortid": 98,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chromite_tab",
@@ -147,7 +147,7 @@
     {
       "name": "ShadiCrystal",
       "type": "item",
-      "sortid": 47,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadi_crystal",
@@ -156,7 +156,7 @@
     {
       "name": "The5horsemen",
       "type": "achievement",
-      "sortid": 99,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_5horsemen",
@@ -201,7 +201,7 @@
     {
       "name": "LoliumSword",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_sword",
@@ -210,7 +210,7 @@
     {
       "name": "LoliumAxe",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_axe",
@@ -219,7 +219,7 @@
     {
       "name": "LoliumPickaxe",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_pickaxe",
@@ -228,7 +228,7 @@
     {
       "name": "LoliumShovel",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_shovel",
@@ -237,7 +237,7 @@
     {
       "name": "LoliumHoe",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_hoe",
@@ -246,7 +246,7 @@
     {
       "name": "JorditeSword",
       "type": "tool",
-      "sortid": 28,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_sword",
@@ -255,7 +255,7 @@
     {
       "name": "JorditeAxe",
       "type": "tool",
-      "sortid": 29,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_axe",
@@ -264,7 +264,7 @@
     {
       "name": "JorditePickaxe",
       "type": "tool",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_pickaxe",
@@ -273,7 +273,7 @@
     {
       "name": "JorditeShovel",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_shovel",
@@ -282,7 +282,7 @@
     {
       "name": "JorditeHoe",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_hoe",
@@ -291,7 +291,7 @@
     {
       "name": "SandromythsSword",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_sword",
@@ -300,7 +300,7 @@
     {
       "name": "SandromythsAxe",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_axe",
@@ -309,7 +309,7 @@
     {
       "name": "SandromythsPickaxe",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_pickaxe",
@@ -318,7 +318,7 @@
     {
       "name": "SandromythsShovel",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_shovel",
@@ -327,7 +327,7 @@
     {
       "name": "SandromythsHoe",
       "type": "tool",
-      "sortid": 42,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_hoe",
@@ -345,7 +345,7 @@
     {
       "name": "RadioactiveIngot",
       "type": "achievement",
-      "sortid": 100,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radioactive_ingot",
@@ -354,7 +354,7 @@
     {
       "name": "WeirdLookingCheese",
       "type": "achievement",
-      "sortid": 101,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weird_looking_cheese",
@@ -363,7 +363,7 @@
     {
       "name": "ANewTin",
       "type": "achievement",
-      "sortid": 102,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "a_new_tin",
@@ -372,7 +372,7 @@
     {
       "name": "HowToMakeALantern",
       "type": "achievement",
-      "sortid": 103,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "how_to_make_a_lantern",
@@ -381,7 +381,7 @@
     {
       "name": "TheKeyToSucces",
       "type": "achievement",
-      "sortid": 104,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_key_to_succes",
@@ -390,7 +390,7 @@
     {
       "name": "TinCan",
       "type": "item",
-      "sortid": 27,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_can",
@@ -399,7 +399,7 @@
     {
       "name": "CodFishTinCan",
       "type": "item",
-      "sortid": 58,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cod_fish_tin_can",
@@ -408,7 +408,7 @@
     {
       "name": "SalmonFishTinCan",
       "type": "item",
-      "sortid": 59,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salmon_fish_tin_can",
@@ -417,7 +417,7 @@
     {
       "name": "TropicalFishTinCan",
       "type": "item",
-      "sortid": 60,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropical_fish_tin_can",
@@ -426,7 +426,7 @@
     {
       "name": "PufferfishTinCanPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 105,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pufferfish_tin_can_player_finishes_using_item",
@@ -443,7 +443,7 @@
     {
       "name": "PufferfishTinCan",
       "type": "item",
-      "sortid": 61,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pufferfish_tin_can",
@@ -452,7 +452,7 @@
     {
       "name": "FoodTab",
       "type": "tab",
-      "sortid": 106,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "food_tab",
@@ -461,7 +461,7 @@
     {
       "name": "MiscTab",
       "type": "tab",
-      "sortid": 107,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "misc_tab",
@@ -470,7 +470,7 @@
     {
       "name": "TinCanCT",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tin_can_ct",
@@ -479,7 +479,7 @@
     {
       "name": "CodFishTinCanCT",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cod_fish_tin_can_ct",
@@ -488,7 +488,7 @@
     {
       "name": "SalmonFishTinCanCT",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salmon_fish_tin_can_ct",
@@ -497,7 +497,7 @@
     {
       "name": "TropicalFishTinCanCT",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropical_fish_tin_can_ct",
@@ -506,7 +506,7 @@
     {
       "name": "PufferfishTinCanCT",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pufferfish_tin_can_ct",
@@ -515,7 +515,7 @@
     {
       "name": "RadioactiveTycholaProcedure",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radioactive_tychola_procedure",
@@ -568,7 +568,7 @@
     {
       "name": "TycholasRadioactiveStrip",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tycholas_radioactive_strip",
@@ -601,7 +601,7 @@
     {
       "name": "BlockOfLolium",
       "type": "block",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_lolium",
@@ -610,7 +610,7 @@
     {
       "name": "BlockOfJordite",
       "type": "block",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_jordite",
@@ -619,7 +619,7 @@
     {
       "name": "BlockOfSandromyths",
       "type": "block",
-      "sortid": 35,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_sandromyths",
@@ -628,7 +628,7 @@
     {
       "name": "BlockOfChromite",
       "type": "block",
-      "sortid": 45,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_chromite",
@@ -637,7 +637,7 @@
     {
       "name": "StringOfGrass",
       "type": "item",
-      "sortid": 48,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "string_of_grass",
@@ -646,7 +646,7 @@
     {
       "name": "GrassRope",
       "type": "item",
-      "sortid": 49,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_rope",
@@ -655,7 +655,7 @@
     {
       "name": "StickWithGrassRope",
       "type": "item",
-      "sortid": 50,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_with_grass_rope",
@@ -664,7 +664,7 @@
     {
       "name": "GrassRopeCraftRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass_rope_craft_recipe",
@@ -673,7 +673,7 @@
     {
       "name": "StickWithGrassRopeCraftRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_with_grass_rope_craft_recipe",
@@ -682,7 +682,7 @@
     {
       "name": "Grass",
       "type": "loottable",
-      "sortid": 117,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grass",
@@ -691,7 +691,7 @@
     {
       "name": "TycholasTrueColors",
       "type": "achievement",
-      "sortid": 118,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tycholas_true_colors",
@@ -700,7 +700,7 @@
     {
       "name": "NerdsAlert",
       "type": "achievement",
-      "sortid": 119,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nerds_alert",
@@ -709,7 +709,7 @@
     {
       "name": "RadioactiveBlockOfTycholaCraftRecipe",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radioactive_block_of_tychola_craft_recipe",
@@ -718,7 +718,7 @@
     {
       "name": "BlockOfTycholaCraftRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_tychola_craft_recipe",
@@ -727,7 +727,7 @@
     {
       "name": "BlockOfLoliumCraftRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_lolium_craft_recipe",
@@ -736,7 +736,7 @@
     {
       "name": "BlockOfJorditeCraftRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_jordite_craft_recipe",
@@ -745,7 +745,7 @@
     {
       "name": "BlockOfSandromythsCraftRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_sandromyths_craft_recipe",
@@ -754,7 +754,7 @@
     {
       "name": "BlockOfChromiteCraftRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_of_chromite_craft_recipe",
@@ -763,7 +763,7 @@
     {
       "name": "ShadiCrystalCraftRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shadi_crystal_craft_recipe",
@@ -772,7 +772,7 @@
     {
       "name": "RadioactiveTycholaIngotCraftRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radioactive_tychola_ingot_craft_recipe",
@@ -781,7 +781,7 @@
     {
       "name": "TycholaIngotCraftRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_ingot_craft_recipe",
@@ -790,7 +790,7 @@
     {
       "name": "LoliumIngotCraftRecipe",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_ingot_craft_recipe",
@@ -799,7 +799,7 @@
     {
       "name": "JorditeIngotCraftRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_ingot_craft_recipe",
@@ -808,7 +808,7 @@
     {
       "name": "SandromythsCraftRecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_craft_recipe",
@@ -817,7 +817,7 @@
     {
       "name": "ChromiteCraftRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chromite_craft_recipe",
@@ -826,7 +826,7 @@
     {
       "name": "TycholaSwordCraftRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_sword_craft_recipe",
@@ -835,7 +835,7 @@
     {
       "name": "TycholaAxeCraftRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_axe_craft_recipe",
@@ -844,7 +844,7 @@
     {
       "name": "TycholaPickaxeCraftRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_pickaxe_craft_recipe",
@@ -853,7 +853,7 @@
     {
       "name": "TycholaShovelCraftRecipe",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_shovel_craft_recipe",
@@ -862,7 +862,7 @@
     {
       "name": "TycholaHoeCraftRecipe",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_hoe_craft_recipe",
@@ -871,7 +871,7 @@
     {
       "name": "LoliumSwordCraftRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_sword_craft_recipe",
@@ -880,7 +880,7 @@
     {
       "name": "LoliumAxeCraftRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_axe_craft_recipe",
@@ -889,7 +889,7 @@
     {
       "name": "LoliumPickaxeCraftRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_pickaxe_craft_recipe",
@@ -898,7 +898,7 @@
     {
       "name": "LoliumShovelCraftRecipe",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_shovel_craft_recipe",
@@ -907,7 +907,7 @@
     {
       "name": "LoliumHoeCraftRecipe",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_hoe_craft_recipe",
@@ -916,7 +916,7 @@
     {
       "name": "JorditeSwordCraftRecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_sword_craft_recipe",
@@ -925,7 +925,7 @@
     {
       "name": "JorditeAxeCraftRecipe",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_axe_craft_recipe",
@@ -934,7 +934,7 @@
     {
       "name": "JorditePickaxeCraftRecipe",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_pickaxe_craft_recipe",
@@ -943,7 +943,7 @@
     {
       "name": "JorditeShovelCraftRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_shovel_craft_recipe",
@@ -952,7 +952,7 @@
     {
       "name": "JorditeHoeCraftRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_hoe_craft_recipe",
@@ -961,7 +961,7 @@
     {
       "name": "SandromythsSwordCraftRecipe",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_sword_craft_recipe",
@@ -970,7 +970,7 @@
     {
       "name": "SandromythsAxeCraftRecipe",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_axe_craft_recipe",
@@ -979,7 +979,7 @@
     {
       "name": "SandromythsPickaxeCraftRecipe",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_pickaxe_craft_recipe",
@@ -988,7 +988,7 @@
     {
       "name": "SandromythsShovelCraftRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_shovel_craft_recipe",
@@ -997,7 +997,7 @@
     {
       "name": "SandromythsHoeCraftRecipe",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_hoe_craft_recipe",
@@ -1006,7 +1006,7 @@
     {
       "name": "TycholaIngotSmeltRecipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_ingot_smelt_recipe",
@@ -1015,7 +1015,7 @@
     {
       "name": "LoliumIngotSmeltRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_ingot_smelt_recipe",
@@ -1024,7 +1024,7 @@
     {
       "name": "JorditeIngotSmeltRecipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_ingot_smelt_recipe",
@@ -1033,7 +1033,7 @@
     {
       "name": "SandromythsSmeltRecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_smelt_recipe",
@@ -1042,7 +1042,7 @@
     {
       "name": "ChromiteSmeltRecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chromite_smelt_recipe",
@@ -1051,7 +1051,7 @@
     {
       "name": "TycholaIngotBlastRecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_ingot_blast_recipe",
@@ -1060,7 +1060,7 @@
     {
       "name": "LoliumIngotBlastRecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_ingot_blast_recipe",
@@ -1069,7 +1069,7 @@
     {
       "name": "JorditeIngotBlastRecipe",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_ingot_blast_recipe",
@@ -1078,7 +1078,7 @@
     {
       "name": "SandromythsBlastRecipe",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_blast_recipe",
@@ -1087,7 +1087,7 @@
     {
       "name": "ChromiteBlastRecipe",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chromite_blast_recipe",
@@ -1096,7 +1096,7 @@
     {
       "name": "WoodenSword",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_sword",
@@ -1105,7 +1105,7 @@
     {
       "name": "WoodenAxe",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_axe",
@@ -1114,7 +1114,7 @@
     {
       "name": "WoodenPickaxe",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_pickaxe",
@@ -1123,7 +1123,7 @@
     {
       "name": "WoodenShovel",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_shovel",
@@ -1132,7 +1132,7 @@
     {
       "name": "WoodenHoe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_hoe",
@@ -1141,7 +1141,7 @@
     {
       "name": "GoldenSword",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_sword",
@@ -1150,7 +1150,7 @@
     {
       "name": "GoldenAxe",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_axe",
@@ -1159,7 +1159,7 @@
     {
       "name": "GoldenPickaxe",
       "type": "recipe",
-      "sortid": 170,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_pickaxe",
@@ -1168,7 +1168,7 @@
     {
       "name": "GoldenShovel",
       "type": "recipe",
-      "sortid": 171,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_shovel",
@@ -1177,7 +1177,7 @@
     {
       "name": "GoldenHoe",
       "type": "recipe",
-      "sortid": 172,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_hoe",
@@ -1186,7 +1186,7 @@
     {
       "name": "StoneSword",
       "type": "recipe",
-      "sortid": 173,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_sword",
@@ -1195,7 +1195,7 @@
     {
       "name": "StoneAxe",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_axe",
@@ -1204,7 +1204,7 @@
     {
       "name": "StonePickaxe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_pickaxe",
@@ -1213,7 +1213,7 @@
     {
       "name": "StoneShovel",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_shovel",
@@ -1222,7 +1222,7 @@
     {
       "name": "StoneHoe",
       "type": "recipe",
-      "sortid": 177,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_hoe",
@@ -1231,7 +1231,7 @@
     {
       "name": "IronSword",
       "type": "recipe",
-      "sortid": 178,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_sword",
@@ -1240,7 +1240,7 @@
     {
       "name": "IronAxe",
       "type": "recipe",
-      "sortid": 179,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_axe",
@@ -1249,7 +1249,7 @@
     {
       "name": "IronPickaxe",
       "type": "recipe",
-      "sortid": 180,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_pickaxe",
@@ -1258,7 +1258,7 @@
     {
       "name": "IronShovel",
       "type": "recipe",
-      "sortid": 181,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_shovel",
@@ -1267,7 +1267,7 @@
     {
       "name": "IronHoe",
       "type": "recipe",
-      "sortid": 182,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_hoe",
@@ -1276,7 +1276,7 @@
     {
       "name": "DiamondSword",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_sword",
@@ -1285,7 +1285,7 @@
     {
       "name": "DiamondAxe",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_axe",
@@ -1294,7 +1294,7 @@
     {
       "name": "DiamondPickaxe",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_pickaxe",
@@ -1303,7 +1303,7 @@
     {
       "name": "DiamondShovel",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_shovel",
@@ -1312,7 +1312,7 @@
     {
       "name": "DiamondHoe",
       "type": "recipe",
-      "sortid": 187,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_hoe",
@@ -1321,7 +1321,7 @@
     {
       "name": "BlackAshWood",
       "type": "block",
-      "sortid": 62,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_wood",
@@ -1330,7 +1330,7 @@
     {
       "name": "BlackAshLog",
       "type": "block",
-      "sortid": 63,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_log",
@@ -1339,7 +1339,7 @@
     {
       "name": "BlackAshPlanks",
       "type": "block",
-      "sortid": 64,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_planks",
@@ -1348,7 +1348,7 @@
     {
       "name": "BlackAshLeaves",
       "type": "block",
-      "sortid": 65,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_leaves",
@@ -1357,7 +1357,7 @@
     {
       "name": "BlackAshStairs",
       "type": "block",
-      "sortid": 66,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_stairs",
@@ -1366,7 +1366,7 @@
     {
       "name": "BlackAshSlab",
       "type": "block",
-      "sortid": 67,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_slab",
@@ -1375,7 +1375,7 @@
     {
       "name": "BlackAshFence",
       "type": "block",
-      "sortid": 68,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_fence",
@@ -1384,7 +1384,7 @@
     {
       "name": "BlackAshFenceGate",
       "type": "block",
-      "sortid": 69,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_fence_gate",
@@ -1393,7 +1393,7 @@
     {
       "name": "BlackAshPressurePlate",
       "type": "block",
-      "sortid": 70,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_pressure_plate",
@@ -1402,7 +1402,7 @@
     {
       "name": "BlackAshButton",
       "type": "block",
-      "sortid": 71,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_button",
@@ -1411,7 +1411,7 @@
     {
       "name": "BlackAshItemsTag",
       "type": "tag",
-      "sortid": 188,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_items_tag",
@@ -1420,7 +1420,7 @@
     {
       "name": "BlackAshWoodRecipe",
       "type": "recipe",
-      "sortid": 189,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_wood_recipe",
@@ -1429,7 +1429,7 @@
     {
       "name": "BlackAshPlanksRecipe",
       "type": "recipe",
-      "sortid": 190,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_planks_recipe",
@@ -1438,7 +1438,7 @@
     {
       "name": "BlackAshStairsRecipe",
       "type": "recipe",
-      "sortid": 191,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_stairs_recipe",
@@ -1447,7 +1447,7 @@
     {
       "name": "BlackAshSlabRecipe",
       "type": "recipe",
-      "sortid": 192,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_slab_recipe",
@@ -1456,7 +1456,7 @@
     {
       "name": "BlackAshFenceRecipe",
       "type": "recipe",
-      "sortid": 193,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_fence_recipe",
@@ -1465,7 +1465,7 @@
     {
       "name": "BlackAshFenceGateRecipe",
       "type": "recipe",
-      "sortid": 194,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_fence_gate_recipe",
@@ -1474,7 +1474,7 @@
     {
       "name": "BlackAshPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_pressure_plate_recipe",
@@ -1483,7 +1483,7 @@
     {
       "name": "BlackAshButtonRecipe",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_button_recipe",
@@ -1492,7 +1492,7 @@
     {
       "name": "BlackAshStickRecipe",
       "type": "recipe",
-      "sortid": 197,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_stick_recipe",
@@ -1501,7 +1501,7 @@
     {
       "name": "BlackAsh",
       "type": "tab",
-      "sortid": 198,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash",
@@ -1510,7 +1510,7 @@
     {
       "name": "MahoganyWood",
       "type": "block",
-      "sortid": 77,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_wood",
@@ -1519,7 +1519,7 @@
     {
       "name": "MahoganyLog",
       "type": "block",
-      "sortid": 78,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_log",
@@ -1528,7 +1528,7 @@
     {
       "name": "MahoganyPlanks",
       "type": "block",
-      "sortid": 79,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_planks",
@@ -1537,7 +1537,7 @@
     {
       "name": "MahoganyLeaves",
       "type": "block",
-      "sortid": 80,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_leaves",
@@ -1546,7 +1546,7 @@
     {
       "name": "MahoganyStairs",
       "type": "block",
-      "sortid": 81,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_stairs",
@@ -1555,7 +1555,7 @@
     {
       "name": "MahoganySlab",
       "type": "block",
-      "sortid": 82,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_slab",
@@ -1564,7 +1564,7 @@
     {
       "name": "MahoganyFence",
       "type": "block",
-      "sortid": 83,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_fence",
@@ -1573,7 +1573,7 @@
     {
       "name": "MahoganyFenceGate",
       "type": "block",
-      "sortid": 84,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_fence_gate",
@@ -1582,7 +1582,7 @@
     {
       "name": "MahoganyPressurePlate",
       "type": "block",
-      "sortid": 85,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_pressure_plate",
@@ -1591,7 +1591,7 @@
     {
       "name": "MahoganyButton",
       "type": "block",
-      "sortid": 86,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_button",
@@ -1600,7 +1600,7 @@
     {
       "name": "MahoganyItemsTag",
       "type": "tag",
-      "sortid": 199,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_items_tag",
@@ -1609,7 +1609,7 @@
     {
       "name": "MahoganyWoodRecipe",
       "type": "recipe",
-      "sortid": 200,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_wood_recipe",
@@ -1618,7 +1618,7 @@
     {
       "name": "MahoganyPlanksRecipe",
       "type": "recipe",
-      "sortid": 201,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_planks_recipe",
@@ -1627,7 +1627,7 @@
     {
       "name": "MahoganyStairsRecipe",
       "type": "recipe",
-      "sortid": 202,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_stairs_recipe",
@@ -1636,7 +1636,7 @@
     {
       "name": "MahoganySlabRecipe",
       "type": "recipe",
-      "sortid": 203,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_slab_recipe",
@@ -1645,7 +1645,7 @@
     {
       "name": "MahoganyFenceRecipe",
       "type": "recipe",
-      "sortid": 204,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_fence_recipe",
@@ -1654,7 +1654,7 @@
     {
       "name": "MahoganyFenceGateRecipe",
       "type": "recipe",
-      "sortid": 205,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_fence_gate_recipe",
@@ -1663,7 +1663,7 @@
     {
       "name": "MahoganyPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 206,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_pressure_plate_recipe",
@@ -1672,7 +1672,7 @@
     {
       "name": "MahoganyButtonRecipe",
       "type": "recipe",
-      "sortid": 207,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_button_recipe",
@@ -1681,7 +1681,7 @@
     {
       "name": "MahoganyStickRecipe",
       "type": "recipe",
-      "sortid": 208,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_stick_recipe",
@@ -1690,7 +1690,7 @@
     {
       "name": "Mahogany",
       "type": "tab",
-      "sortid": 209,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany",
@@ -1699,7 +1699,7 @@
     {
       "name": "StrippedBlackAshWood",
       "type": "block",
-      "sortid": 72,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_black_ash_wood",
@@ -1708,7 +1708,7 @@
     {
       "name": "StrippedBlackAshLog",
       "type": "block",
-      "sortid": 73,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_black_ash_log",
@@ -1717,7 +1717,7 @@
     {
       "name": "StrippedMahoganyWood",
       "type": "block",
-      "sortid": 87,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_mahogany_wood",
@@ -1726,7 +1726,7 @@
     {
       "name": "StrippedMahoganyLog",
       "type": "block",
-      "sortid": 88,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_mahogany_log",
@@ -1735,7 +1735,7 @@
     {
       "name": "BlackAshStrip",
       "type": "procedure",
-      "sortid": 210,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_strip",
@@ -1768,7 +1768,7 @@
     {
       "name": "MahoganyStrip",
       "type": "procedure",
-      "sortid": 211,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_strip",
@@ -1801,7 +1801,7 @@
     {
       "name": "LogBlocks",
       "type": "tag",
-      "sortid": 212,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_blocks",
@@ -1810,7 +1810,7 @@
     {
       "name": "PlankItems",
       "type": "tag",
-      "sortid": 213,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plank_items",
@@ -1828,7 +1828,7 @@
     {
       "name": "LoliumShard",
       "type": "item",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_shard",
@@ -1837,7 +1837,7 @@
     {
       "name": "JorditeShard",
       "type": "item",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_shard",
@@ -1846,7 +1846,7 @@
     {
       "name": "SandromythsShard",
       "type": "item",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_shard",
@@ -1855,7 +1855,7 @@
     {
       "name": "OresToShards",
       "type": "procedure",
-      "sortid": 214,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores_to_shards",
@@ -1888,7 +1888,7 @@
     {
       "name": "BlackAshSapling",
       "type": "plant",
-      "sortid": 74,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_sapling",
@@ -1897,7 +1897,7 @@
     {
       "name": "BlackAshSaplingGrowth",
       "type": "procedure",
-      "sortid": 215,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_sapling_growth",
@@ -1926,7 +1926,7 @@
     {
       "name": "BlackAshLeavesLootTable",
       "type": "loottable",
-      "sortid": 216,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_leaves_loot_table",
@@ -1935,7 +1935,7 @@
     {
       "name": "MahoganySapling",
       "type": "plant",
-      "sortid": 89,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_sapling",
@@ -1944,7 +1944,7 @@
     {
       "name": "MahoganyLeavesLootTable",
       "type": "loottable",
-      "sortid": 217,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_leaves_loot_table",
@@ -1953,7 +1953,7 @@
     {
       "name": "MahoganySaplingGrowth",
       "type": "procedure",
-      "sortid": 218,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_sapling_growth",
@@ -1982,7 +1982,7 @@
     {
       "name": "BlackAshDoor",
       "type": "block",
-      "sortid": 75,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_door",
@@ -1991,7 +1991,7 @@
     {
       "name": "BlackAshTrapdoor",
       "type": "block",
-      "sortid": 76,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_trapdoor",
@@ -2000,7 +2000,7 @@
     {
       "name": "MahoganyDoor",
       "type": "block",
-      "sortid": 90,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_door",
@@ -2009,7 +2009,7 @@
     {
       "name": "MahoganyTrapdoor",
       "type": "block",
-      "sortid": 91,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_trapdoor",
@@ -2018,7 +2018,7 @@
     {
       "name": "FenceBlocks",
       "type": "tag",
-      "sortid": 219,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fence_blocks",
@@ -2027,7 +2027,7 @@
     {
       "name": "WoodenFenceBlocks",
       "type": "tag",
-      "sortid": 220,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_fence_blocks",
@@ -2036,7 +2036,7 @@
     {
       "name": "LeaveBlocks",
       "type": "tag",
-      "sortid": 221,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leave_blocks",
@@ -2045,7 +2045,7 @@
     {
       "name": "StrippedBlackAshWoodCraftRecipe",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_black_ash_wood_craft_recipe",
@@ -2054,7 +2054,7 @@
     {
       "name": "BlackAshDoorCraftRecipe",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_door_craft_recipe",
@@ -2063,7 +2063,7 @@
     {
       "name": "StrippedMahoganyWoodCraftRecipe",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_mahogany_wood_craft_recipe",
@@ -2072,7 +2072,7 @@
     {
       "name": "MahoganyDoorCraftRecipe",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_door_craft_recipe",
@@ -2081,7 +2081,7 @@
     {
       "name": "MahoganyTrapdoorCraftRecipe",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_trapdoor_craft_recipe",
@@ -2090,7 +2090,7 @@
     {
       "name": "BlackAshTrapdoorCraftRecipe",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_trapdoor_craft_recipe",
@@ -2099,7 +2099,7 @@
     {
       "name": "BlackAshTree",
       "type": "structure",
-      "sortid": 228,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_tree",
@@ -2108,7 +2108,7 @@
     {
       "name": "MahoganyTree",
       "type": "structure",
-      "sortid": 229,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_tree",
@@ -2117,7 +2117,7 @@
     {
       "name": "MahoganySaplingPlantRightClicked",
       "type": "procedure",
-      "sortid": 230,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mahogany_sapling_plant_right_clicked",
@@ -2150,7 +2150,7 @@
     {
       "name": "BlackAshSaplingPlantRightClicked",
       "type": "procedure",
-      "sortid": 231,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_ash_sapling_plant_right_clicked",
@@ -2198,7 +2198,7 @@
     {
       "name": "LoliumArmor",
       "type": "armor",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_armor",
@@ -2213,7 +2213,7 @@
     {
       "name": "JorditeArmor",
       "type": "armor",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_armor",
@@ -2228,7 +2228,7 @@
     {
       "name": "SandromythsArmor",
       "type": "armor",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_armor",
@@ -2243,7 +2243,7 @@
     {
       "name": "NerdsBlock",
       "type": "block",
-      "sortid": 51,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nerds_block",
@@ -2252,7 +2252,7 @@
     {
       "name": "TycholaHelmet",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_helmet",
@@ -2261,7 +2261,7 @@
     {
       "name": "TycholaChestplate",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_chestplate",
@@ -2270,7 +2270,7 @@
     {
       "name": "TycholaLeggings",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_leggings",
@@ -2279,7 +2279,7 @@
     {
       "name": "TycholaBoots",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tychola_boots",
@@ -2288,7 +2288,7 @@
     {
       "name": "LoliumHelmet",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_helmet",
@@ -2297,7 +2297,7 @@
     {
       "name": "LoliumChestplate",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_chestplate",
@@ -2306,7 +2306,7 @@
     {
       "name": "LoliumLeggings",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_leggings",
@@ -2315,7 +2315,7 @@
     {
       "name": "LoliumBoots",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lolium_boots",
@@ -2324,7 +2324,7 @@
     {
       "name": "JorditeHelmet",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_helmet",
@@ -2333,7 +2333,7 @@
     {
       "name": "JorditeChestplate",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_chestplate",
@@ -2342,7 +2342,7 @@
     {
       "name": "JorditeLeggings",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_leggings",
@@ -2351,7 +2351,7 @@
     {
       "name": "JorditeBoots",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jordite_boots",
@@ -2360,7 +2360,7 @@
     {
       "name": "SandromythsHelmet",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_helmet",
@@ -2369,7 +2369,7 @@
     {
       "name": "SandromythsChestplate",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_chestplate",
@@ -2378,7 +2378,7 @@
     {
       "name": "SandromythsLeggings",
       "type": "recipe",
-      "sortid": 246,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_leggings",
@@ -2387,7 +2387,7 @@
     {
       "name": "SandromythsBoots",
       "type": "recipe",
-      "sortid": 247,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandromyths_boots",
@@ -2396,7 +2396,7 @@
     {
       "name": "MusicDiscLantern",
       "type": "musicdisc",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_lantern",
@@ -2405,7 +2405,7 @@
     {
       "name": "MusicDiscWatchMyBodyDrop",
       "type": "musicdisc",
-      "sortid": 53,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_watch_my_body_drop",
@@ -2414,7 +2414,7 @@
     {
       "name": "MusicDiscLanternCraftRecipe",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "music_disc_lantern_craft_recipe",
@@ -2423,7 +2423,7 @@
     {
       "name": "FsForward",
       "type": "achievement",
-      "sortid": 249,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fs_forward",
@@ -2432,7 +2432,7 @@
     {
       "name": "BlankFSM",
       "type": "item",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blank_fsm",
@@ -2441,7 +2441,7 @@
     {
       "name": "OneFSM",
       "type": "item",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "one_fsm",
@@ -2450,7 +2450,7 @@
     {
       "name": "TwoFSM",
       "type": "item",
-      "sortid": 56,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "two_fsm",
@@ -2459,7 +2459,7 @@
     {
       "name": "FiveFSM",
       "type": "item",
-      "sortid": 57,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "five_fsm",
@@ -2468,7 +2468,7 @@
     {
       "name": "BlankFSMCraftRecipe",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blank_fsm_craft_recipe",
@@ -2477,7 +2477,7 @@
     {
       "name": "OneFSMCraftRecipe",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "one_fsm_craft_recipe",
@@ -2486,7 +2486,7 @@
     {
       "name": "TwoFSMCraftRecipe",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "two_fsm_craft_recipe",
@@ -2495,14 +2495,158 @@
     {
       "name": "FiveFSMCraftRecipe",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "five_fsm_craft_recipe",
       "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "ShadiTableGUI",
+      "type": "gui",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_table_gui"
+    },
+    {
+      "name": "ShadiTycholaSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_tychola_sword",
+      "path": "~/Items/Tools/Tychola/Shadi"
+    },
+    {
+      "name": "ShadiTableProcedure",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_table_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ShadiTable",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_table",
+      "path": "~/Blocks/Build"
+    },
+    {
+      "name": "IsThundering",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_thundering",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "IsNotThundering",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_not_thundering",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ShadiTycholaAxe",
+      "type": "tool",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_tychola_axe",
+      "path": "~/Items/Tools/Tychola/Shadi"
+    },
+    {
+      "name": "ShadiTycholaShovel",
+      "type": "tool",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_tychola_shovel",
+      "path": "~/Items/Tools/Tychola/Shadi"
+    },
+    {
+      "name": "ShadiTycholaPickaxe",
+      "type": "tool",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_tychola_pickaxe",
+      "path": "~/Items/Tools/Tychola/Shadi"
+    },
+    {
+      "name": "ShadiTycholaHoe",
+      "type": "tool",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadi_tychola_hoe",
+      "path": "~/Items/Tools/Tychola/Shadi"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "IsThunder",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "IsNotThunder",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    }
+  ],
   "sound_elements": [
     {
       "name": "music.instrumental.nerdsalert.lantern",
@@ -2525,8 +2669,8 @@
     "en_us": {
       "block.nerdsalert_legacy.mahogany_fence": "Mahogany Fence",
       "block.nerdsalert_legacy.tychola_ore": "Tychola Ore",
-      "block.nerdsalert_legacy.mahogany_sapling": "Mahogany Sapling",
       "advancements.tycholas_true_colors.descr": "Get hold of a Block of Tychola",
+      "block.nerdsalert_legacy.mahogany_sapling": "Mahogany Sapling",
       "item.nerdsalert_legacy.lolium_ingot": "Lolium Ingot",
       "item.nerdsalert_legacy.one_fsm": "One fsM",
       "itemGroup.tabsandromyths_tab": "Sandromyths",
@@ -2553,6 +2697,7 @@
       "itemGroup.tabchromite_tab": "Chromite",
       "item.nerdsalert_legacy.tychola_shovel": "Tychola Shovel",
       "item.nerdsalert_legacy.music_disc_watch_my_body_drop": "Music Disc Watch My Body Drop",
+      "item.nerdsalert_legacy.shadi_tychola_axe": "Shadi Tychola Axe",
       "item.nerdsalert_legacy.lolium_shard": "Lolium Shard",
       "subtitles.music.instrumental.fsforward.watch_my_body_drop": "fsForward - Watch My Body Drop [instrumental]",
       "block.nerdsalert_legacy.mahogany_planks": "Mahogany Planks",
@@ -2563,7 +2708,9 @@
       "item.nerdsalert_legacy.sandromyths_armor_leggings": "Sandromyths Leggings",
       "item.nerdsalert_legacy.chromite": "Chromite",
       "item.nerdsalert_legacy.tychola_ingot": "Tychola Ingot",
+      "item.nerdsalert_legacy.shadi_tychola_hoe": "Shadi Tychola Hoe",
       "item.nerdsalert_legacy.tychola_pickaxe": "Tychola Pickaxe",
+      "item.nerdsalert_legacy.shadi_tychola_shovel": "Shadi Tychola Shovel",
       "advancements.the_5horsemen.title": "The 4... 5 horsemen!",
       "block.nerdsalert_legacy.radioactive_block_of_tychola": "Radioactive Block of Tychola",
       "block.nerdsalert_legacy.stripped_mahogany_log": "Stripped Mahogany Log",
@@ -2582,6 +2729,7 @@
       "advancements.a_new_tin.descr": "Get hold of a Jordite Ingot",
       "block.nerdsalert_legacy.stripped_black_ash_log": "Stripped Black Ash Log",
       "block.nerdsalert_legacy.black_ash_fence_gate": "BlackAsh Fence Gate",
+      "item.nerdsalert_legacy.shadi_tychola_pickaxe": "Shadi Tychola Pickaxe",
       "block.nerdsalert_legacy.nerds_block": "Nerds Block",
       "item.nerdsalert_legacy.sandromyths_axe": "Sandromyths Axe",
       "item.nerdsalert_legacy.pufferfish_tin_can": "Pufferfish Tin Can",
@@ -2631,6 +2779,7 @@
       "block.nerdsalert_legacy.sandromyths_ore": "Sandromyths Ore",
       "item.nerdsalert_legacy.lolium_axe": "Lolium Axe",
       "block.nerdsalert_legacy.black_ash_trapdoor": "Black Ash Trapdoor",
+      "block.nerdsalert_legacy.shadi_table": "Shadi Table",
       "item.nerdsalert_legacy.lolium_sword": "Lolium Sword",
       "block.nerdsalert_legacy.mahogany_door": "Mahogany Door",
       "itemGroup.tabmahogany": "Mahogany",
@@ -2656,7 +2805,8 @@
       "advancements.fs_forward.title": "fsForward!",
       "item.nerdsalert_legacy.salmon_fish_tin_can": "Salmon Fish Tin Can",
       "item.nerdsalert_legacy.lolium_armor_chestplate": "Lolium Chestplate",
-      "block.nerdsalert_legacy.block_of_tychola": "Block of Tychola"
+      "block.nerdsalert_legacy.block_of_tychola": "Block of Tychola",
+      "item.nerdsalert_legacy.shadi_tychola_sword": "Shadi Tychola Sword"
     }
   },
   "foldersRoot": {
@@ -2739,7 +2889,12 @@
             "children": [
               {
                 "name": "Tychola",
-                "children": []
+                "children": [
+                  {
+                    "name": "Shadi",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Lolium",

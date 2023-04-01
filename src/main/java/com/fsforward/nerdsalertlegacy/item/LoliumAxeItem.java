@@ -18,7 +18,7 @@ public class LoliumAxeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public LoliumAxeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 18);
+		super(instance, 19);
 	}
 
 	@Override

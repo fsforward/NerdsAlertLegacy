@@ -27,7 +27,7 @@ public class BlockOfChromiteBlock extends NerdsalertLegacyModElements.ModElement
 	public static final Block block = null;
 
 	public BlockOfChromiteBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 45);
+		super(instance, 46);
 	}
 
 	@Override

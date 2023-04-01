@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class LoliumTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public LoliumTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 95);
+		super(instance, 97);
 	}
 
 	@Override

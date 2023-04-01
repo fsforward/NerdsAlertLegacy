@@ -32,7 +32,7 @@ public class MahoganyTrapdoorBlock extends NerdsalertLegacyModElements.ModElemen
 	public static final Block block = null;
 
 	public MahoganyTrapdoorBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 91);
+		super(instance, 93);
 	}
 
 	@Override

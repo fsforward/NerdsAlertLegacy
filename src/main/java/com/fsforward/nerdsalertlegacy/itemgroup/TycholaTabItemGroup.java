@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class TycholaTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public TycholaTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 94);
+		super(instance, 96);
 	}
 
 	@Override

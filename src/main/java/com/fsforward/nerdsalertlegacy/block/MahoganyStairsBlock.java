@@ -29,7 +29,7 @@ public class MahoganyStairsBlock extends NerdsalertLegacyModElements.ModElement 
 	public static final Block block = null;
 
 	public MahoganyStairsBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 81);
+		super(instance, 83);
 	}
 
 	@Override

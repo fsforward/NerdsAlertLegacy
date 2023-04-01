@@ -1,0 +1,93 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fuse",
+          "onClick": {
+            "name": "ShadiTableProcedure"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Fuse",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thunder_unfilled.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IsNotThundering"
+          },
+          "name": "thunder_unfilled.png",
+          "x": 179,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thunder_filled.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "IsThundering"
+          },
+          "name": "thunder_filled.png",
+          "x": 206,
+          "y": 44
+        }
+      }
+    ],
+    "onTick": {
+      "name": "IsThundering"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

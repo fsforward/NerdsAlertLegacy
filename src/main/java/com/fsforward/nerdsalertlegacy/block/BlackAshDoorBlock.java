@@ -34,7 +34,7 @@ public class BlackAshDoorBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public BlackAshDoorBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 75);
+		super(instance, 77);
 	}
 
 	@Override

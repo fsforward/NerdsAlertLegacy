@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class MiscTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public MiscTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 107);
+		super(instance, 109);
 	}
 
 	@Override

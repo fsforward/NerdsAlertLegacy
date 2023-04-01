@@ -30,7 +30,7 @@ public class SandromythsArmorItem extends NerdsalertLegacyModElements.ModElement
 	public static final Item boots = null;
 
 	public SandromythsArmorItem(NerdsalertLegacyModElements instance) {
-		super(instance, 43);
+		super(instance, 44);
 	}
 
 	@Override

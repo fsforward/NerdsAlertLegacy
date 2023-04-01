@@ -48,7 +48,7 @@ public class MahoganySaplingBlock extends NerdsalertLegacyModElements.ModElement
 	public static final Block block = null;
 
 	public MahoganySaplingBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 89);
+		super(instance, 91);
 	}
 
 	@Override

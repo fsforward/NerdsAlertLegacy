@@ -48,7 +48,7 @@ public class JorditeOreBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public JorditeOreBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 23);
+		super(instance, 24);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

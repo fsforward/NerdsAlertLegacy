@@ -30,7 +30,7 @@ public class LoliumArmorItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item boots = null;
 
 	public LoliumArmorItem(NerdsalertLegacyModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 	}
 
 	@Override

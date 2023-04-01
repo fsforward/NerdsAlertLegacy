@@ -17,7 +17,7 @@ public class ChromiteItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public ChromiteItem(NerdsalertLegacyModElements instance) {
-		super(instance, 46);
+		super(instance, 47);
 	}
 
 	@Override

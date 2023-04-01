@@ -33,7 +33,7 @@ public class StrippedMahoganyWoodBlock extends NerdsalertLegacyModElements.ModEl
 	public static final Block block = null;
 
 	public StrippedMahoganyWoodBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 87);
+		super(instance, 89);
 	}
 
 	@Override

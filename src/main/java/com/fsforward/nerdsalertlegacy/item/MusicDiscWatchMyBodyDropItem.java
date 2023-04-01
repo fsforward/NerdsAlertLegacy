@@ -17,7 +17,7 @@ public class MusicDiscWatchMyBodyDropItem extends NerdsalertLegacyModElements.Mo
 	public static final Item block = null;
 
 	public MusicDiscWatchMyBodyDropItem(NerdsalertLegacyModElements instance) {
-		super(instance, 53);
+		super(instance, 55);
 	}
 
 	@Override

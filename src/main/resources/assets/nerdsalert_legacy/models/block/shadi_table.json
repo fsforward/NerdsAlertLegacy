@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nerdsalert_legacy:blocks/shadi_table",
+    "particle": "nerdsalert_legacy:blocks/shadi_table"
+  }
+}

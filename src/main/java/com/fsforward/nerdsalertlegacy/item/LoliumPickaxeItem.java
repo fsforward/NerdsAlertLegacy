@@ -18,7 +18,7 @@ public class LoliumPickaxeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public LoliumPickaxeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 19);
+		super(instance, 20);
 	}
 
 	@Override

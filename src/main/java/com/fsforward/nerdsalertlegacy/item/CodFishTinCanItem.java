@@ -21,7 +21,7 @@ public class CodFishTinCanItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public CodFishTinCanItem(NerdsalertLegacyModElements instance) {
-		super(instance, 58);
+		super(instance, 60);
 	}
 
 	@Override

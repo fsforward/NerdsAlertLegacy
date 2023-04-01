@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class SandromythsTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public SandromythsTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 97);
+		super(instance, 99);
 	}
 
 	@Override
