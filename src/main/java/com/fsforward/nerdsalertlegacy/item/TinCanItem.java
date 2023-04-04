@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import com.fsforward.nerdsalertlegacy.itemgroup.JorditeTabItemGroup;
+import com.fsforward.nerdsalertlegacy.itemgroup.MiscTabItemGroup;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 
 @NerdsalertLegacyModElements.ModElement.Tag
@@ -18,7 +18,7 @@ public class TinCanItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public TinCanItem(NerdsalertLegacyModElements instance) {
-		super(instance, 28);
+		super(instance, 67);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class TinCanItem extends NerdsalertLegacyModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(JorditeTabItemGroup.tab).maxStackSize(16).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(MiscTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("tin_can");
 		}
 

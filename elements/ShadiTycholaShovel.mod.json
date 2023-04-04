@@ -8,19 +8,19 @@
     "name": "Shadi Tychola Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:TycholaTab"
+      "value": "CUSTOM:ShadiTab"
     },
     "toolType": "Spade",
     "harvestLevel": 2,
-    "efficiency": 6.5,
-    "attackSpeed": 1.2,
-    "enchantability": 12,
-    "damageVsEntity": 6.115,
-    "usageCount": 412,
+    "efficiency": 6.25,
+    "attackSpeed": 1.25,
+    "enchantability": 10,
+    "damageVsEntity": 5.25,
+    "usageCount": 350,
     "blocksAffected": [],
     "hasGlow": true,
     "glowCondition": {
-      "name": "IsThundering"
+      "name": "WeatherCondition1"
     },
     "repairItems": [
       {

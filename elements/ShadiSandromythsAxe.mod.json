@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_sandromyths_axe",
+    "customModelName": "Normal",
+    "name": "Shadi Sandromyths Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ShadiTab"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 13.75,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 12.75,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "WeatherCondition1"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SandromythsShard"
+      },
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

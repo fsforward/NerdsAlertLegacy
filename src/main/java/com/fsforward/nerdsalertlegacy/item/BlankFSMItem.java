@@ -17,7 +17,7 @@ public class BlankFSMItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public BlankFSMItem(NerdsalertLegacyModElements instance) {
-		super(instance, 56);
+		super(instance, 63);
 	}
 
 	@Override

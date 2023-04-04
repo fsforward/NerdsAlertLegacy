@@ -17,7 +17,7 @@ public class StringOfGrassItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public StringOfGrassItem(NerdsalertLegacyModElements instance) {
-		super(instance, 51);
+		super(instance, 60);
 	}
 
 	@Override

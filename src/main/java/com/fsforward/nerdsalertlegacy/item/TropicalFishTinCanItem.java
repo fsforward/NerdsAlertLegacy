@@ -21,7 +21,7 @@ public class TropicalFishTinCanItem extends NerdsalertLegacyModElements.ModEleme
 	public static final Item block = null;
 
 	public TropicalFishTinCanItem(NerdsalertLegacyModElements instance) {
-		super(instance, 62);
+		super(instance, 85);
 	}
 
 	@Override

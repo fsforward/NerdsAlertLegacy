@@ -10,7 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
-import com.fsforward.nerdsalertlegacy.itemgroup.MiscTabItemGroup;
+import com.fsforward.nerdsalertlegacy.itemgroup.ShadiTabItemGroup;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 
 @NerdsalertLegacyModElements.ModElement.Tag
@@ -19,7 +19,7 @@ public class ShadiCrystalItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public ShadiCrystalItem(NerdsalertLegacyModElements instance) {
-		super(instance, 50);
+		super(instance, 13);
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class ShadiCrystalItem extends NerdsalertLegacyModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MiscTabItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
+			super(new Item.Properties().group(ShadiTabItemGroup.tab).maxStackSize(64).rarity(Rarity.EPIC));
 			setRegistryName("shadi_crystal");
 		}
 

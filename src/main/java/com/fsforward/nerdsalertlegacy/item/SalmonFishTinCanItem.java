@@ -21,7 +21,7 @@ public class SalmonFishTinCanItem extends NerdsalertLegacyModElements.ModElement
 	public static final Item block = null;
 
 	public SalmonFishTinCanItem(NerdsalertLegacyModElements instance) {
-		super(instance, 61);
+		super(instance, 84);
 	}
 
 	@Override

@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_sandromyths_shovel",
+    "customModelName": "Normal",
+    "name": "Shadi Sandromyths Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ShadiTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 5,
+    "efficiency": 13.75,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 8.25,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "WeatherCondition1"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SandromythsShard"
+      },
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -39,7 +39,7 @@
         {
           "type": "minecraft:item",
           "name": "nerdsalert_legacy:mahogany_sapling",
-          "weight": 12,
+          "weight": 7,
           "conditions": [
             {
               "condition": "minecraft:inverted",
@@ -71,7 +71,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 85,
+          "weight": 90,
           "conditions": [
             {
               "condition": "minecraft:inverted",

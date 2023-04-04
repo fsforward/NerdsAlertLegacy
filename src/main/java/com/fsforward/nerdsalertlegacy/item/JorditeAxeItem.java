@@ -18,7 +18,7 @@ public class JorditeAxeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public JorditeAxeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 30);
+		super(instance, 54);
 	}
 
 	@Override

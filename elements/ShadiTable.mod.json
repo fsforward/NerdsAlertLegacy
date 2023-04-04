@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:MiscTab"
+      "value": "CUSTOM:ShadiTab"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

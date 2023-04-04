@@ -45,10 +45,9 @@ public class TycholaSwordItem extends NerdsalertLegacyModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(TycholaShardItem.block), new ItemStack(LoliumShardItem.block),
-						new ItemStack(JorditeShardItem.block), new ItemStack(SandromythsShardItem.block));
+				return Ingredient.fromStacks(new ItemStack(TycholaShardItem.block));
 			}
-		}, 3, -2.4f, new Item.Properties().group(TycholaTabItemGroup.tab).isImmuneToFire()) {
+		}, 3, -2.4f, new Item.Properties().group(TycholaTabItemGroup.tab)) {
 		}.setRegistryName("tychola_sword"));
 	}
 }

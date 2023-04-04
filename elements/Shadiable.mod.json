@@ -1,0 +1,122 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:TycholaSword"
+      },
+      {
+        "value": "CUSTOM:TycholaAxe"
+      },
+      {
+        "value": "CUSTOM:TycholaShovel"
+      },
+      {
+        "value": "CUSTOM:TycholaHoe"
+      },
+      {
+        "value": "CUSTOM:LoliumSword"
+      },
+      {
+        "value": "CUSTOM:LoliumAxe"
+      },
+      {
+        "value": "CUSTOM:LoliumPickaxe"
+      },
+      {
+        "value": "CUSTOM:LoliumShovel"
+      },
+      {
+        "value": "CUSTOM:LoliumHoe"
+      },
+      {
+        "value": "CUSTOM:JorditeSword"
+      },
+      {
+        "value": "CUSTOM:JorditeAxe"
+      },
+      {
+        "value": "CUSTOM:JorditePickaxe"
+      },
+      {
+        "value": "CUSTOM:JorditeShovel"
+      },
+      {
+        "value": "CUSTOM:JorditeHoe"
+      },
+      {
+        "value": "CUSTOM:SandromythsSword"
+      },
+      {
+        "value": "CUSTOM:SandromythsAxe"
+      },
+      {
+        "value": "CUSTOM:SandromythsPickaxe"
+      },
+      {
+        "value": "CUSTOM:SandromythsShovel"
+      },
+      {
+        "value": "CUSTOM:SandromythsHoe"
+      },
+      {
+        "value": "CUSTOM:TycholaPickaxe"
+      },
+      {
+        "value": "CUSTOM:TycholaArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:TycholaArmor.body"
+      },
+      {
+        "value": "CUSTOM:TycholaArmor.legs"
+      },
+      {
+        "value": "CUSTOM:TycholaArmor.boots"
+      },
+      {
+        "value": "CUSTOM:LoliumArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:LoliumArmor.body"
+      },
+      {
+        "value": "CUSTOM:LoliumArmor.legs"
+      },
+      {
+        "value": "CUSTOM:LoliumArmor.boots"
+      },
+      {
+        "value": "CUSTOM:JorditeArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:JorditeArmor.body"
+      },
+      {
+        "value": "CUSTOM:JorditeArmor.legs"
+      },
+      {
+        "value": "CUSTOM:JorditeArmor.boots"
+      },
+      {
+        "value": "CUSTOM:SandromythsArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:SandromythsArmor.body"
+      },
+      {
+        "value": "CUSTOM:SandromythsArmor.legs"
+      },
+      {
+        "value": "CUSTOM:SandromythsArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "shadiable",
+    "namespace": "forge"
+  }
+}

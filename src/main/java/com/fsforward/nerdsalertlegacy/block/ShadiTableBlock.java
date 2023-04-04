@@ -55,7 +55,7 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-import com.fsforward.nerdsalertlegacy.itemgroup.MiscTabItemGroup;
+import com.fsforward.nerdsalertlegacy.itemgroup.ShadiTabItemGroup;
 import com.fsforward.nerdsalertlegacy.gui.ShadiTableGUIGui;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 
@@ -67,14 +67,14 @@ public class ShadiTableBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public ShadiTableBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 48);
+		super(instance, 14);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(MiscTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ShadiTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	private static class TileEntityRegisterHandler {

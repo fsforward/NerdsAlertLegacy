@@ -19,8 +19,8 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import com.fsforward.nerdsalertlegacy.procedures.IsThunderingProcedure;
-import com.fsforward.nerdsalertlegacy.itemgroup.TycholaTabItemGroup;
+import com.fsforward.nerdsalertlegacy.procedures.WeatherCondition1Procedure;
+import com.fsforward.nerdsalertlegacy.itemgroup.ShadiTabItemGroup;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 
 @NerdsalertLegacyModElements.ModElement.Tag
@@ -29,22 +29,22 @@ public class ShadiTycholaShovelItem extends NerdsalertLegacyModElements.ModEleme
 	public static final Item block = null;
 
 	public ShadiTycholaShovelItem(NerdsalertLegacyModElements instance) {
-		super(instance, 261);
+		super(instance, 17);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 412;
+				return 350;
 			}
 
 			public float getEfficiency() {
-				return 6.5f;
+				return 6.25f;
 			}
 
 			public float getAttackDamage() {
-				return 4.115f;
+				return 3.25f;
 			}
 
 			public int getHarvestLevel() {
@@ -52,14 +52,14 @@ public class ShadiTycholaShovelItem extends NerdsalertLegacyModElements.ModEleme
 			}
 
 			public int getEnchantability() {
-				return 12;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TycholaShardItem.block), new ItemStack(LoliumShardItem.block),
 						new ItemStack(JorditeShardItem.block), new ItemStack(SandromythsShardItem.block));
 			}
-		}, 1, -2.8f, new Item.Properties().group(TycholaTabItemGroup.tab).isImmuneToFire()) {
+		}, 1, -2.75f, new Item.Properties().group(ShadiTabItemGroup.tab).isImmuneToFire()) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {
@@ -68,7 +68,7 @@ public class ShadiTycholaShovelItem extends NerdsalertLegacyModElements.ModEleme
 				double x = entity.getPosX();
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
-				if (!(IsThunderingProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
+				if (!(WeatherCondition1Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
 						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))) {
 					return false;
 				}

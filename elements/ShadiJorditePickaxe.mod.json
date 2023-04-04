@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_jordite_pickaxe",
+    "customModelName": "Normal",
+    "name": "Shadi Jordite Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ShadiTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.5,
+    "enchantability": 20,
+    "damageVsEntity": 6.85,
+    "usageCount": 1250,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "WeatherCondition1"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:JorditeShard"
+      },
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

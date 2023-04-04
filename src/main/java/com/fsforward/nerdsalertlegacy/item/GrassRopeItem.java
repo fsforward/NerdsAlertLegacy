@@ -17,7 +17,7 @@ public class GrassRopeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public GrassRopeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 52);
+		super(instance, 61);
 	}
 
 	@Override

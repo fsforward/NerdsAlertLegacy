@@ -6,20 +6,20 @@
   ],
   "key": {
     "0": {
-      "item": "nerdsalert_legacy:mahogany_log"
+      "item": "nerdsalert_legacy:stripped_mahogany_wood"
     },
     "1": {
-      "item": "nerdsalert_legacy:mahogany_log"
+      "item": "nerdsalert_legacy:stripped_mahogany_wood"
     },
     "2": {
-      "item": "nerdsalert_legacy:mahogany_log"
+      "item": "nerdsalert_legacy:stripped_mahogany_wood"
     },
     "3": {
-      "item": "nerdsalert_legacy:mahogany_log"
+      "item": "nerdsalert_legacy:stripped_mahogany_wood"
     }
   },
   "result": {
-    "item": "nerdsalert_legacy:mahogany_wood",
+    "item": "nerdsalert_legacy:stripped_mahogany_wood",
     "count": 3
   }
 }

@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_sandromyths_sword",
+    "customModelName": "Normal",
+    "name": "Shadi Sandromyths Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ShadiTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 13.75,
+    "attackSpeed": 1.75,
+    "enchantability": 18,
+    "damageVsEntity": 7.75,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "WeatherCondition1"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SandromythsShard"
+      },
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

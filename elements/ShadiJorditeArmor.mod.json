@@ -1,0 +1,71 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "shadi_jordite_helmet",
+    "enableBody": true,
+    "textureBody": "shadi_jordite_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "shadi_jordite_leggings",
+    "enableBoots": true,
+    "textureBoots": "shadi_jordite_boots",
+    "creativeTab": {
+      "value": "CUSTOM:ShadiTab"
+    },
+    "armorTextureFile": "shadi_jordite_",
+    "helmetName": "Shadi Jordite Helmet",
+    "bodyName": "Shadi Jordite Chestplate",
+    "leggingsName": "Shadi Jordite Leggings",
+    "bootsName": "Shadi Jordite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 41,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 5,
+    "enchantability": 20,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:JorditeShard"
+      },
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ]
+  }
+}

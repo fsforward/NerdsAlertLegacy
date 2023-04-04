@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "nerdsalert_legacy:items/music_disc_watch_my_body_drop"
-  }
-}

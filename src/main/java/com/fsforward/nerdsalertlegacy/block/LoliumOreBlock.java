@@ -48,7 +48,7 @@ public class LoliumOreBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public LoliumOreBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 14);
+		super(instance, 39);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -119,8 +119,8 @@ public class LoliumOreBlock extends NerdsalertLegacyModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(32)
-					.square().func_242731_b(4);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(32)
+					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("lolium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("nerdsalert_legacy:lolium_ore"), configuredFeature);
 		}

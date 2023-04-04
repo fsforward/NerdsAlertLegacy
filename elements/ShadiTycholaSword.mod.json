@@ -8,19 +8,19 @@
     "name": "Shadi Tychola Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:TycholaTab"
+      "value": "CUSTOM:ShadiTab"
     },
     "toolType": "Sword",
     "harvestLevel": 2,
-    "efficiency": 7.5,
-    "attackSpeed": 1.8,
-    "enchantability": 12,
-    "damageVsEntity": 4.75,
-    "usageCount": 412,
+    "efficiency": 6.25,
+    "attackSpeed": 2.0,
+    "enchantability": 10,
+    "damageVsEntity": 4.25,
+    "usageCount": 350,
     "blocksAffected": [],
     "hasGlow": true,
     "glowCondition": {
-      "name": "IsThundering"
+      "name": "WeatherCondition1"
     },
     "repairItems": [
       {
@@ -36,11 +36,8 @@
         "value": "CUSTOM:SandromythsShard"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onItemInInventoryTick": {
-      "name": "IsThundering"
-    }
+    "damageOnCrafting": false
   }
 }

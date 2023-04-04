@@ -18,7 +18,7 @@ public class SandromythsShovelItem extends NerdsalertLegacyModElements.ModElemen
 	public static final Item block = null;
 
 	public SandromythsShovelItem(NerdsalertLegacyModElements instance) {
-		super(instance, 42);
+		super(instance, 77);
 	}
 
 	@Override

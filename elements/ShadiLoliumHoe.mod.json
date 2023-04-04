@@ -1,0 +1,43 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shadi_lolium_hoe",
+    "customModelName": "Normal",
+    "name": "Shadi Lolium Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ShadiTab"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 3.25,
+    "enchantability": 17,
+    "damageVsEntity": 2.5,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "WeatherCondition1"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      },
+      {
+        "value": "CUSTOM:SandromythsShard"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -30,7 +30,7 @@ public class JorditeArmorItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item boots = null;
 
 	public JorditeArmorItem(NerdsalertLegacyModElements instance) {
-		super(instance, 34);
+		super(instance, 58);
 	}
 
 	@Override

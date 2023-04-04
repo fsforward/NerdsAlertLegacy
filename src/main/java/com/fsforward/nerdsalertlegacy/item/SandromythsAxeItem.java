@@ -18,7 +18,7 @@ public class SandromythsAxeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public SandromythsAxeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 40);
+		super(instance, 75);
 	}
 
 	@Override

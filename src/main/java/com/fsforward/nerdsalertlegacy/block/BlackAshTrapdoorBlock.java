@@ -32,7 +32,7 @@ public class BlackAshTrapdoorBlock extends NerdsalertLegacyModElements.ModElemen
 	public static final Block block = null;
 
 	public BlackAshTrapdoorBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 78);
+		super(instance, 101);
 	}
 
 	@Override

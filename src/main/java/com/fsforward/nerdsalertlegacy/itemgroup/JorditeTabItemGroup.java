@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class JorditeTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public JorditeTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 98);
+		super(instance, 280);
 	}
 
 	@Override

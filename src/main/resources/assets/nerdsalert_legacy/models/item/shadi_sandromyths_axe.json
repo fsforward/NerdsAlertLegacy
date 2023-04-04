@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "nerdsalert_legacy:items/shadi_sandromyths_axe"
+  }
+}

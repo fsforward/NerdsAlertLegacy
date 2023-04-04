@@ -33,7 +33,7 @@ public class MahoganyLogBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public MahoganyLogBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 80);
+		super(instance, 103);
 	}
 
 	@Override

@@ -133,12 +133,15 @@
       },
       {
         "value": "Blocks.IRON_ORE"
+      },
+      {
+        "value": "Blocks.COAL_ORE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 15,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 15,
-    "maxGenerateHeight": 40
+    "frequencyPerChunks": 7,
+    "frequencyOnChunk": 6,
+    "minGenerateHeight": 25,
+    "maxGenerateHeight": 50
   }
 }

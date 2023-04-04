@@ -17,7 +17,7 @@ public class TwoFSMItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public TwoFSMItem(NerdsalertLegacyModElements instance) {
-		super(instance, 58);
+		super(instance, 65);
 	}
 
 	@Override

@@ -10,9 +10,7 @@ import net.minecraftforge.fml.network.IContainerFactory;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.DeferredWorkQueue;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -37,7 +35,6 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 import com.fsforward.nerdsalertlegacy.procedures.ShadiTableProcedureProcedure;
-import com.fsforward.nerdsalertlegacy.procedures.IsThunderingProcedure;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyMod;
 
@@ -47,14 +44,13 @@ public class ShadiTableGUIGui extends NerdsalertLegacyModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public ShadiTableGUIGui(NerdsalertLegacyModElements instance) {
-		super(instance, 256);
+		super(instance, 269);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
 				GUISlotChangedMessage::handler);
 		containerType = new ContainerType<>(new GuiContainerModFactory());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ContainerRegisterHandler());
-		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	private static class ContainerRegisterHandler {
@@ -67,20 +63,6 @@ public class ShadiTableGUIGui extends NerdsalertLegacyModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void initElements() {
 		DeferredWorkQueue.runLater(() -> ScreenManager.registerFactory(containerType, ShadiTableGUIGuiWindow::new));
-	}
-
-	@SubscribeEvent
-	public void onPlayerTick(TickEvent.PlayerTickEvent event) {
-		PlayerEntity entity = event.player;
-		if (event.phase == TickEvent.Phase.END && entity.openContainer instanceof GuiContainerMod) {
-			World world = entity.world;
-			double x = entity.getPosX();
-			double y = entity.getPosY();
-			double z = entity.getPosZ();
-
-			IsThunderingProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-		}
 	}
 
 	public static class GuiContainerModFactory implements IContainerFactory {

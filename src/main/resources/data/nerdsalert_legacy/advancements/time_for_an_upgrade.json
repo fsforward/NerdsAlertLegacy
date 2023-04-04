@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "nerdsalert_legacy:shadi_table"
+    },
+    "title": {
+      "translate": "advancements.time_for_an_upgrade.title"
+    },
+    "description": {
+      "translate": "advancements.time_for_an_upgrade.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "time_for_an_upgrade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "nerdsalert_legacy:shadi_table",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "nerdsalert_legacy:the_5horsemen"
+}

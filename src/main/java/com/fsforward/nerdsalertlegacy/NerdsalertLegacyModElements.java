@@ -13,7 +13,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -47,10 +46,6 @@ public class NerdsalertLegacyModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public NerdsalertLegacyModElements() {
-		sounds.put(new ResourceLocation("nerdsalert_legacy", "music.instrumental.nerdsalert.lantern"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("nerdsalert_legacy", "music.instrumental.nerdsalert.lantern")));
-		sounds.put(new ResourceLocation("nerdsalert_legacy", "music.instrumental.fsforward.watch_my_body_drop"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("nerdsalert_legacy", "music.instrumental.fsforward.watch_my_body_drop")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("nerdsalert_legacy").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -66,7 +61,6 @@ public class NerdsalertLegacyModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(NerdsalertLegacyModElements.ModElement::initElements);
-		MinecraftForge.EVENT_BUS.register(new NerdsalertLegacyModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {

@@ -44,7 +44,7 @@ public class SandromythsOreBlock extends NerdsalertLegacyModElements.ModElement 
 	public static final Block block = null;
 
 	public SandromythsOreBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 35);
+		super(instance, 70);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

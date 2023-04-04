@@ -1,0 +1,71 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "shadi_sandromyths_helmet",
+    "enableBody": true,
+    "textureBody": "shadi_sandromyths_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "shadi_sandromyths_leggings",
+    "enableBoots": true,
+    "textureBoots": "shadi_sandromyths_boots",
+    "creativeTab": {
+      "value": "CUSTOM:ShadiTab"
+    },
+    "armorTextureFile": "shadi_sandromyths_",
+    "helmetName": "Shadi Sandromyths Helmet",
+    "bodyName": "Shadi Sandromyths Chestplate",
+    "leggingsName": "Shadi Sandromyths Leggings",
+    "bootsName": "Shadi Sandromyths Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 50,
+    "damageValueHelmet": 5,
+    "damageValueBody": 9,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 5,
+    "enchantability": 15,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SandromythsShard"
+      },
+      {
+        "value": "CUSTOM:TycholaShard"
+      },
+      {
+        "value": "CUSTOM:LoliumShard"
+      },
+      {
+        "value": "CUSTOM:JorditeShard"
+      }
+    ]
+  }
+}

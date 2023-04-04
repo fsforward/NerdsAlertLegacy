@@ -18,7 +18,7 @@ public class JorditePickaxeItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public JorditePickaxeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 31);
+		super(instance, 55);
 	}
 
 	@Override

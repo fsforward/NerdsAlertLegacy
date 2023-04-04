@@ -48,7 +48,7 @@ public class JorditeOreBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public JorditeOreBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 24);
+		super(instance, 49);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -119,8 +119,8 @@ public class JorditeOreBlock extends NerdsalertLegacyModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 10)).range(125)
-					.square().func_242731_b(15);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(125)
+					.square().func_242731_b(7);
 			event.getRegistry().register(feature.setRegistryName("jordite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("nerdsalert_legacy:jordite_ore"), configuredFeature);
 		}

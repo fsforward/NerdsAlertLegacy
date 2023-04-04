@@ -33,7 +33,7 @@ public class StrippedMahoganyLogBlock extends NerdsalertLegacyModElements.ModEle
 	public static final Block block = null;
 
 	public StrippedMahoganyLogBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 90);
+		super(instance, 113);
 	}
 
 	@Override

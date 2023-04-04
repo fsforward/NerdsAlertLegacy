@@ -22,18 +22,9 @@
     "repairItems": [
       {
         "value": "CUSTOM:TycholaShard"
-      },
-      {
-        "value": "CUSTOM:LoliumShard"
-      },
-      {
-        "value": "CUSTOM:JorditeShard"
-      },
-      {
-        "value": "CUSTOM:SandromythsShard"
       }
     ],
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

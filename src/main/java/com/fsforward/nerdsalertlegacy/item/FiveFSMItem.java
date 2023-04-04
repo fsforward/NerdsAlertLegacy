@@ -17,7 +17,7 @@ public class FiveFSMItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public FiveFSMItem(NerdsalertLegacyModElements instance) {
-		super(instance, 59);
+		super(instance, 66);
 	}
 
 	@Override

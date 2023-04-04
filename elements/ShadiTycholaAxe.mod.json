@@ -8,19 +8,19 @@
     "name": "Shadi Tychola Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:TycholaTab"
+      "value": "CUSTOM:ShadiTab"
     },
     "toolType": "Axe",
     "harvestLevel": 2,
-    "efficiency": 7.5,
+    "efficiency": 6.25,
     "attackSpeed": 1.0,
-    "enchantability": 12,
-    "damageVsEntity": 13.5,
-    "usageCount": 412,
+    "enchantability": 10,
+    "damageVsEntity": 11.25,
+    "usageCount": 350,
     "blocksAffected": [],
     "hasGlow": true,
     "glowCondition": {
-      "name": "IsThundering"
+      "name": "WeatherCondition1"
     },
     "repairItems": [
       {

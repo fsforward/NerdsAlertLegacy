@@ -44,7 +44,7 @@ public class NetherChromiteOreBlock extends NerdsalertLegacyModElements.ModEleme
 	public static final Block block = null;
 
 	public NetherChromiteOreBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 45);
+		super(instance, 80);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

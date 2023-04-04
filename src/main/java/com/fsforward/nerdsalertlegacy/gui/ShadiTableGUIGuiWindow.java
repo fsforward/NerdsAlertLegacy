@@ -22,8 +22,8 @@ import java.util.AbstractMap;
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
-import com.fsforward.nerdsalertlegacy.procedures.IsThunderingProcedure;
-import com.fsforward.nerdsalertlegacy.procedures.IsNotThunderingProcedure;
+import com.fsforward.nerdsalertlegacy.procedures.WeatherCondition2Procedure;
+import com.fsforward.nerdsalertlegacy.procedures.WeatherCondition1Procedure;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyMod;
 
 @OnlyIn(Dist.CLIENT)
@@ -62,12 +62,12 @@ public class ShadiTableGUIGuiWindow extends ContainerScreen<ShadiTableGUIGui.Gui
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
-		if (IsNotThunderingProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
+		if (WeatherCondition2Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
 				(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("nerdsalert_legacy:textures/screens/thunder_unfilled.png"));
-			this.blit(ms, this.guiLeft + 53, this.guiTop + 7, 0, 0, 13, 17, 13, 17);
+			this.blit(ms, this.guiLeft + 80, this.guiTop + 7, 0, 0, 13, 17, 13, 17);
 		}
-		if (IsThunderingProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
+		if (WeatherCondition1Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
 				(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll))) {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("nerdsalert_legacy:textures/screens/thunder_filled.png"));
 			this.blit(ms, this.guiLeft + 80, this.guiTop + 7, 0, 0, 13, 17, 13, 17);

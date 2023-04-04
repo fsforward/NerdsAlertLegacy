@@ -94,6 +94,8 @@ public class TycholaOreBlock extends NerdsalertLegacyModElements.ModElement {
 				blockCriteria = true;
 			if (blockAt.getBlock() == Blocks.IRON_ORE)
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.COAL_ORE)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -119,8 +121,8 @@ public class TycholaOreBlock extends NerdsalertLegacyModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(40)
-					.square().func_242731_b(15);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 6)).range(50)
+					.square().func_242731_b(7);
 			event.getRegistry().register(feature.setRegistryName("tychola_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("nerdsalert_legacy:tychola_ore"), configuredFeature);
 		}

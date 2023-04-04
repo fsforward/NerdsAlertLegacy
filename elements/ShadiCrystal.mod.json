@@ -8,7 +8,7 @@
     "name": "Shadi Crystal",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:MiscTab"
+      "value": "CUSTOM:ShadiTab"
     },
     "stackSize": 64,
     "enchantability": 0,

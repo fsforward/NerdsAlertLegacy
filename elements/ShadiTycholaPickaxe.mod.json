@@ -8,19 +8,19 @@
     "name": "Shadi Tychola Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:TycholaTab"
+      "value": "CUSTOM:ShadiTab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 2,
-    "efficiency": 7.25,
-    "attackSpeed": 2.3,
-    "enchantability": 12,
-    "damageVsEntity": 5.125,
-    "usageCount": 412,
+    "efficiency": 6.25,
+    "attackSpeed": 1.5,
+    "enchantability": 10,
+    "damageVsEntity": 4.0,
+    "usageCount": 350,
     "blocksAffected": [],
     "hasGlow": true,
     "glowCondition": {
-      "name": "IsThundering"
+      "name": "WeatherCondition1"
     },
     "repairItems": [
       {

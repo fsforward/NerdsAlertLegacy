@@ -4,7 +4,7 @@
   "definition": {
     "name": "Misc",
     "icon": {
-      "value": "CUSTOM:StringOfGrass"
+      "value": "CUSTOM:BlankFSM"
     },
     "showSearch": false
   }

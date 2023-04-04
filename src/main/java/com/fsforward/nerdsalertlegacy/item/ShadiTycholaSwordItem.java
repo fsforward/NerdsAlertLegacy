@@ -12,7 +12,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
 import net.minecraft.client.Minecraft;
 
 import java.util.stream.Stream;
@@ -20,8 +19,8 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import com.fsforward.nerdsalertlegacy.procedures.IsThunderingProcedure;
-import com.fsforward.nerdsalertlegacy.itemgroup.TycholaTabItemGroup;
+import com.fsforward.nerdsalertlegacy.procedures.WeatherCondition1Procedure;
+import com.fsforward.nerdsalertlegacy.itemgroup.ShadiTabItemGroup;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 
 @NerdsalertLegacyModElements.ModElement.Tag
@@ -30,22 +29,22 @@ public class ShadiTycholaSwordItem extends NerdsalertLegacyModElements.ModElemen
 	public static final Item block = null;
 
 	public ShadiTycholaSwordItem(NerdsalertLegacyModElements instance) {
-		super(instance, 13);
+		super(instance, 15);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 412;
+				return 350;
 			}
 
 			public float getEfficiency() {
-				return 7.5f;
+				return 6.25f;
 			}
 
 			public float getAttackDamage() {
-				return 2.75f;
+				return 2.25f;
 			}
 
 			public int getHarvestLevel() {
@@ -53,25 +52,14 @@ public class ShadiTycholaSwordItem extends NerdsalertLegacyModElements.ModElemen
 			}
 
 			public int getEnchantability() {
-				return 12;
+				return 10;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(TycholaShardItem.block), new ItemStack(LoliumShardItem.block),
 						new ItemStack(JorditeShardItem.block), new ItemStack(SandromythsShardItem.block));
 			}
-		}, 3, -2.2f, new Item.Properties().group(TycholaTabItemGroup.tab)) {
-			@Override
-			public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-				super.inventoryTick(itemstack, world, entity, slot, selected);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-
-				IsThunderingProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
-						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			}
-
+		}, 3, -2f, new Item.Properties().group(ShadiTabItemGroup.tab).isImmuneToFire()) {
 			@Override
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {
@@ -80,7 +68,7 @@ public class ShadiTycholaSwordItem extends NerdsalertLegacyModElements.ModElemen
 				double x = entity.getPosX();
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
-				if (!(IsThunderingProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
+				if (!(WeatherCondition1Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world)).collect(HashMap::new,
 						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))) {
 					return false;
 				}
