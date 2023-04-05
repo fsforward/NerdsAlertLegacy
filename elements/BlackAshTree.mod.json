@@ -5,13 +5,13 @@
     "structure": "blackashtree",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 125000,
+    "spawnProbability": 225000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 3,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 0,
-    "spawnXOffset": 0,
-    "spawnZOffset": 0,
+    "spawnHeightOffset": 1,
+    "spawnXOffset": -2,
+    "spawnZOffset": -2,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -25,6 +25,9 @@
         "value": "swamp"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK"
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "BlackAshTreeAdditionalGenerationCondition"
+    }
   }
 }

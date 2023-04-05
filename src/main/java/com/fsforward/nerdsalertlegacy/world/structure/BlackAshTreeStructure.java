@@ -30,7 +30,13 @@ import net.minecraft.util.Mirror;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import java.util.stream.Stream;
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
+
+import com.fsforward.nerdsalertlegacy.procedures.BlackAshTreeAdditionalGenerationConditionProcedure;
 
 @Mod.EventBusSubscriber
 public class BlackAshTreeStructure {
@@ -52,7 +58,7 @@ public class BlackAshTreeStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 125000) {
+					if ((random.nextInt(1000000) + 1) <= 225000) {
 						int count = random.nextInt(3) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -67,10 +73,15 @@ public class BlackAshTreeStructure {
 								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
+							BlockPos spawnTo = new BlockPos(i + -2, j + 1, k + -2);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
+							if (!BlackAshTreeAdditionalGenerationConditionProcedure.executeProcedure(Stream
+									.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+											new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))
+								continue;
 							Template template = world.getWorld().getStructureTemplateManager()
 									.getTemplateDefaulted(new ResourceLocation("nerdsalert_legacy", "blackashtree"));
 							if (template == null)

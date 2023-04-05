@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.RABBIT_HIDE"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BigLeatherCase"
+    },
+    "name": "big_leather_case_craft_recipe",
+    "namespace": "mod"
+  }
+}

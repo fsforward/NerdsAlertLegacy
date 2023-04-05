@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "nerdsalert_legacy:wetted_paper"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:wetted_paper"
+    },
+    "4": {
+      "item": "nerdsalert_legacy:forest_breeze_cotton_blend"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:wetted_paper"
+    },
+    "7": {
+      "item": "nerdsalert_legacy:wetted_paper"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:bandage",
+    "count": 3
+  }
+}

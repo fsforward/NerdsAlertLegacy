@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "nerdsalert_legacy:blocks/green_herb",
+    "particle": "nerdsalert_legacy:blocks/green_herb"
+  }
+}

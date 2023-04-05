@@ -2836,9 +2836,354 @@
       "locked_code": false,
       "registry_name": "misc_tab",
       "path": "~/CreativeTabs"
+    },
+    {
+      "name": "BarrelBlackAshRecipe",
+      "type": "recipe",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_black_ash_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/BlackAsh"
+    },
+    {
+      "name": "BarrelMahoganyCraftRecipe",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrel_mahogany_craft_recipe",
+      "path": "~/Recipes/Craft/Blocks/Trees/Mahogany"
+    },
+    {
+      "name": "LogItems",
+      "type": "tag",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_items",
+      "path": "~/Tags"
+    },
+    {
+      "name": "BlackAshTreeAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_ash_tree_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "MahoganyTreeAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mahogany_tree_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SmallLeatherCaseCraftRecipe",
+      "type": "recipe",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_leather_case_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "BigLeatherCaseCraftRecipe",
+      "type": "recipe",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_leather_case_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "GrantOnLoad",
+      "type": "procedure",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_on_load",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GreenHerb",
+      "type": "plant",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_herb",
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "YellowHerb",
+      "type": "plant",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_herb",
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "CottonHerb",
+      "type": "plant",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cotton_herb",
+      "path": "~/Blocks/Plants"
+    },
+    {
+      "name": "MortarAndPestle",
+      "type": "item",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "ForestBreezeCottonBlend",
+      "type": "item",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_breeze_cotton_blend",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "RadiantHarvestCottonBlend",
+      "type": "item",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_harvest_cotton_blend",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "WettedPaper",
+      "type": "item",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wetted_paper",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "BandageEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Bandage",
+      "type": "item",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "MortarAndPestleCraftRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "ForestBreezeCottonBlendCraftRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forest_breeze_cotton_blend_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "RadiantHarvestCottonBlendCraftRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiant_harvest_cotton_blend_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "BandageCraftRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_craft_recipe",
+      "path": "~/Recipes/Craft/Items/Misc"
+    },
+    {
+      "name": "WettedPaperWaterClick",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wetted_paper_water_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Medkit",
+      "type": "item",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medkit",
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "MedkitRightclicked",
+      "type": "procedure",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medkit_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FirstAidKitRightclicked",
+      "type": "procedure",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_aid_kit_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FirstAidKit",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_aid_kit",
+      "path": "~/Items/Misc"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "ItemGranted",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "RandomInt",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -2849,11 +3194,13 @@
       "item.nerdsalert_legacy.shadi_sandromyths_armor_boots": "Shadi Sandromyths Boots",
       "advancements.tycholas_true_colors.descr": "Get hold of a Block of Tychola",
       "block.nerdsalert_legacy.mahogany_sapling": "Mahogany Sapling",
+      "item.nerdsalert_legacy.mortar_and_pestle": "Mortar and Pestle",
       "item.nerdsalert_legacy.shadi_lolium_sword": "Shadi Lolium Sword",
       "item.nerdsalert_legacy.shadi_sandromyths_axe": "Shadi Sandromyths Axe",
       "item.nerdsalert_legacy.lolium_ingot": "Lolium Ingot",
       "item.nerdsalert_legacy.one_fsm": "One fsM",
       "itemGroup.tabsandromyths_tab": "Sandromyths",
+      "item.nerdsalert_legacy.forest_breeze_cotton_blend": "Forest Breeze Cotton Blend",
       "block.nerdsalert_legacy.block_of_chromite": "Block of Chromite",
       "item.nerdsalert_legacy.tychola_sword": "Tychola Sword",
       "advancements.how_to_make_a_lantern.descr": "Get hold of a Sandromyths",
@@ -2867,6 +3214,7 @@
       "item.nerdsalert_legacy.stick_with_grass_rope": "Stick with Grass Rope",
       "item.nerdsalert_legacy.lolium_armor_helmet": "Lolium Helmet",
       "item.nerdsalert_legacy.shadi_tychola_armor_leggings": "Shadi Tychola Leggings",
+      "block.nerdsalert_legacy.yellow_herb": "Yellow Herb",
       "item.nerdsalert_legacy.sandromyths_pickaxe": "Sandromyths Pickaxe",
       "item.nerdsalert_legacy.blank_fsm": "Blank fsM",
       "item.nerdsalert_legacy.sandromyths_armor_chestplate": "Sandromyths Chestplate",
@@ -2879,6 +3227,7 @@
       "item.nerdsalert_legacy.tychola_shovel": "Tychola Shovel",
       "itemGroup.tabchromite_tab": "Chromite",
       "item.nerdsalert_legacy.shadi_tychola_axe": "Shadi Tychola Axe",
+      "block.nerdsalert_legacy.green_herb": "Green Herb",
       "item.nerdsalert_legacy.lolium_shard": "Lolium Shard",
       "item.nerdsalert_legacy.shadi_jordite_axe": "Shadi Jordite Axe",
       "subtitles.music.instrumental.fsforward.watch_my_body_drop": "fsForward - Watch My Body Drop [instrumental]",
@@ -2910,6 +3259,7 @@
       "block.nerdsalert_legacy.mahogany_pressure_plate": "Mahogany Pressure Plate",
       "item.nerdsalert_legacy.shadi_sandromyths_hoe": "Shadi Sandromyths Hoe",
       "item.nerdsalert_legacy.shadi_jordite_shovel": "Shadi Jordite Shovel",
+      "block.nerdsalert_legacy.cotton_herb": "Yellow Herb",
       "item.nerdsalert_legacy.cod_fish_tin_can": "Cod Fish Tin Can",
       "item.nerdsalert_legacy.shadi_crystal": "Shadi Crystal",
       "item.nerdsalert_legacy.shadi_sandromyths_armor_chestplate": "Shadi Sandromyths Chestplate",
@@ -2923,9 +3273,11 @@
       "block.nerdsalert_legacy.black_ash_fence_gate": "BlackAsh Fence Gate",
       "item.nerdsalert_legacy.shadi_tychola_pickaxe": "Shadi Tychola Pickaxe",
       "block.nerdsalert_legacy.nerds_block": "Nerds Block",
+      "item.nerdsalert_legacy.radiant_harvest_cotton_blend": "Radiant Harvest Cotton Blend",
       "item.nerdsalert_legacy.sandromyths_axe": "Sandromyths Axe",
       "item.nerdsalert_legacy.pufferfish_tin_can": "Pufferfish Tin Can",
       "item.nerdsalert_legacy.lolium_armor_leggings": "Lolium Leggings",
+      "item.nerdsalert_legacy.wetted_paper": "Wetted Paper",
       "itemGroup.tabfood_tab": "Food",
       "block.nerdsalert_legacy.black_ash_pressure_plate": "BlackAsh Pressure Plate",
       "item.nerdsalert_legacy.lolium_pickaxe": "Lolium Pickaxe",
@@ -2937,6 +3289,7 @@
       "block.nerdsalert_legacy.block_of_jordite": "Block of Jordite",
       "item.nerdsalert_legacy.jordite_hoe": "Jordite Hoe",
       "block.nerdsalert_legacy.black_ash_fence": "Black Ash Fence",
+      "item.nerdsalert_legacy.medkit": "Medkit",
       "block.nerdsalert_legacy.nether_chromite_ore": "Nether Chromite Ore",
       "block.nerdsalert_legacy.mahogany_leaves": "Mahogany Leaves",
       "item.nerdsalert_legacy.tropical_fish_tin_can": "Tropical Fish Tin Can",
@@ -2958,6 +3311,7 @@
       "itemGroup.tabtychola_tab": "Tychola",
       "block.nerdsalert_legacy.mahogany_stairs": "Mahogany Stairs",
       "block.nerdsalert_legacy.mahogany_slab": "Mahogany Slab",
+      "item.nerdsalert_legacy.first_aid_kit": "First Aid Kit",
       "advancements.a_new_tin.title": "A New Tin?",
       "item.nerdsalert_legacy.grass_rope": "Grass Rope",
       "item.nerdsalert_legacy.shadi_lolium_pickaxe": "Shadi Lolium Pickaxe",
@@ -3006,6 +3360,7 @@
       "advancements.time_for_an_upgrade.descr": "Get hold of a Shadi Table",
       "item.nerdsalert_legacy.shadi_jordite_armor_chestplate": "Shadi Jordite Chestplate",
       "item.nerdsalert_legacy.tychola_hoe": "Tychola Hoe",
+      "item.nerdsalert_legacy.bandage": "Bandage",
       "advancements.fs_forward.title": "fsForward!",
       "item.nerdsalert_legacy.salmon_fish_tin_can": "Salmon Fish Tin Can",
       "item.nerdsalert_legacy.lolium_armor_chestplate": "Lolium Chestplate",
@@ -3060,6 +3415,10 @@
           },
           {
             "name": "Build",
+            "children": []
+          },
+          {
+            "name": "Plants",
             "children": []
           }
         ]
@@ -3364,7 +3723,7 @@
   "workspaceSettings": {
     "modid": "nerdsalert_legacy",
     "modName": "NerdsAlert Legacy",
-    "version": "1.6.0.2",
+    "version": "1.7.0.0",
     "author": "fsForward",
     "websiteURL": "https://minecraft.fsforward.com",
     "license": "All Rights Reserved",

@@ -119,8 +119,8 @@ public class JorditeOreBlock extends NerdsalertLegacyModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(125)
-					.square().func_242731_b(7);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(28)
+					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("jordite_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("nerdsalert_legacy:jordite_ore"), configuredFeature);
 		}
