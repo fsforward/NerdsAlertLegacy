@@ -17,7 +17,7 @@ public class WettedPaperItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public WettedPaperItem(NerdsalertLegacyModElements instance) {
-		super(instance, 306);
+		super(instance, 74);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class SandromythsPickaxeItem extends NerdsalertLegacyModElements.ModEleme
 	public static final Item block = null;
 
 	public SandromythsPickaxeItem(NerdsalertLegacyModElements instance) {
-		super(instance, 76);
+		super(instance, 84);
 	}
 
 	@Override

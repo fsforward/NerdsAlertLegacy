@@ -18,7 +18,7 @@ public class MortarAndPestleItem extends NerdsalertLegacyModElements.ModElement 
 	public static final Item block = null;
 
 	public MortarAndPestleItem(NerdsalertLegacyModElements instance) {
-		super(instance, 303);
+		super(instance, 71);
 	}
 
 	@Override

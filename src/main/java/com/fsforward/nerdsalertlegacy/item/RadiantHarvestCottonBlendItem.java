@@ -17,7 +17,7 @@ public class RadiantHarvestCottonBlendItem extends NerdsalertLegacyModElements.M
 	public static final Item block = null;
 
 	public RadiantHarvestCottonBlendItem(NerdsalertLegacyModElements instance) {
-		super(instance, 305);
+		super(instance, 73);
 	}
 
 	@Override

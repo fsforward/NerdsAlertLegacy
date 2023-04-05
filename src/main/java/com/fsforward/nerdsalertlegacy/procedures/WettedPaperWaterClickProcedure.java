@@ -14,7 +14,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.block.BlockState;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -26,7 +25,7 @@ public class WettedPaperWaterClickProcedure {
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
-		public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
+		public static void onRightClickItem(PlayerInteractEvent.RightClickItem event) {
 			PlayerEntity entity = event.getPlayer();
 			if (event.getHand() != entity.getActiveHand()) {
 				return;
@@ -35,38 +34,27 @@ public class WettedPaperWaterClickProcedure {
 			double j = event.getPos().getY();
 			double k = event.getPos().getZ();
 			IWorld world = event.getWorld();
-			BlockState state = world.getBlockState(event.getPos());
 			Map<String, Object> dependencies = new HashMap<>();
 			dependencies.put("x", i);
 			dependencies.put("y", j);
 			dependencies.put("z", k);
 			dependencies.put("world", world);
 			dependencies.put("entity", entity);
-			dependencies.put("direction", event.getFace());
-			dependencies.put("blockstate", state);
 			dependencies.put("event", event);
 			executeProcedure(dependencies);
 		}
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-		if (dependencies.get("blockstate") == null) {
-			if (!dependencies.containsKey("blockstate"))
-				NerdsalertLegacyMod.LOGGER.warn("Failed to load dependency blockstate for procedure WettedPaperWaterClick!");
-			return;
-		}
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
 				NerdsalertLegacyMod.LOGGER.warn("Failed to load dependency entity for procedure WettedPaperWaterClick!");
 			return;
 		}
-		BlockState blockstate = (BlockState) dependencies.get("blockstate");
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity.world
-				.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
-						entity.getEyePosition(1f).add(entity.getLook(1f).x * 1, entity.getLook(1f).y * 1, entity.getLook(1f).z * 1),
-						RayTraceContext.BlockMode.VISUAL, RayTraceContext.FluidMode.SOURCE_ONLY, entity))
-				.getType() == RayTraceResult.Type.BLOCK && blockstate.getMaterial() == net.minecraft.block.material.Material.WATER) {
+		if (entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+				entity.getEyePosition(1f).add(entity.getLook(1f).x * 1, entity.getLook(1f).y * 1, entity.getLook(1f).z * 1),
+				RayTraceContext.BlockMode.VISUAL, RayTraceContext.FluidMode.SOURCE_ONLY, entity)).getType() == RayTraceResult.Type.BLOCK) {
 			if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Items.PAPER) {
 				if (entity instanceof LivingEntity) {
 					((LivingEntity) entity).swing(Hand.MAIN_HAND, true);

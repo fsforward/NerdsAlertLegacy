@@ -27,7 +27,7 @@ public class MedkitItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public MedkitItem(NerdsalertLegacyModElements instance) {
-		super(instance, 316);
+		super(instance, 76);
 	}
 
 	@Override

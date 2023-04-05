@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class BlackAshItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public BlackAshItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 276);
+		super(instance, 284);
 	}
 
 	@Override

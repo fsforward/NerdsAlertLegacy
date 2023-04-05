@@ -1,6 +1,6 @@
 {
-  "itemGroup.tabshadi_tab": "Shadi",
   "block.nerdsalert_legacy.mahogany_fence": "Mahogany Fence",
+  "itemGroup.tabshadi_tab": "Shadi",
   "item.nerdsalert_legacy.shadi_jordite_sword": "Shadi Jordite Sword",
   "block.nerdsalert_legacy.tychola_ore": "Tychola Ore",
   "item.nerdsalert_legacy.shadi_sandromyths_armor_boots": "Shadi Sandromyths Boots",
@@ -71,7 +71,6 @@
   "block.nerdsalert_legacy.mahogany_pressure_plate": "Mahogany Pressure Plate",
   "item.nerdsalert_legacy.shadi_sandromyths_hoe": "Shadi Sandromyths Hoe",
   "item.nerdsalert_legacy.shadi_jordite_shovel": "Shadi Jordite Shovel",
-  "block.nerdsalert_legacy.cotton_herb": "Yellow Herb",
   "item.nerdsalert_legacy.cod_fish_tin_can": "Cod Fish Tin Can",
   "item.nerdsalert_legacy.shadi_crystal": "Shadi Crystal",
   "item.nerdsalert_legacy.shadi_sandromyths_armor_chestplate": "Shadi Sandromyths Chestplate",
@@ -104,6 +103,7 @@
   "item.nerdsalert_legacy.medkit": "Medkit",
   "block.nerdsalert_legacy.nether_chromite_ore": "Nether Chromite Ore",
   "block.nerdsalert_legacy.mahogany_leaves": "Mahogany Leaves",
+  "block.nerdsalert_legacy.cotton": "Cotton",
   "item.nerdsalert_legacy.tropical_fish_tin_can": "Tropical Fish Tin Can",
   "block.nerdsalert_legacy.block_of_lolium": "Block of Lolium",
   "item.nerdsalert_legacy.jordite_ingot": "Jordite Ingot",

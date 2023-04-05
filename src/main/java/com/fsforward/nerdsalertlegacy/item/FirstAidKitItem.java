@@ -27,7 +27,7 @@ public class FirstAidKitItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public FirstAidKitItem(NerdsalertLegacyModElements instance) {
-		super(instance, 318);
+		super(instance, 77);
 	}
 
 	@Override

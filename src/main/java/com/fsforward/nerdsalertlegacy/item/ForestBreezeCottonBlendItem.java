@@ -17,7 +17,7 @@ public class ForestBreezeCottonBlendItem extends NerdsalertLegacyModElements.Mod
 	public static final Item block = null;
 
 	public ForestBreezeCottonBlendItem(NerdsalertLegacyModElements instance) {
-		super(instance, 304);
+		super(instance, 72);
 	}
 
 	@Override

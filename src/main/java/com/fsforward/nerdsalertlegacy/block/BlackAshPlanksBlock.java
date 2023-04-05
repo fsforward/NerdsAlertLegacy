@@ -28,7 +28,7 @@ public class BlackAshPlanksBlock extends NerdsalertLegacyModElements.ModElement 
 	public static final Block block = null;
 
 	public BlackAshPlanksBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 89);
+		super(instance, 97);
 	}
 
 	@Override

@@ -44,7 +44,7 @@ public class ShadiTableGUIGui extends NerdsalertLegacyModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public ShadiTableGUIGui(NerdsalertLegacyModElements instance) {
-		super(instance, 269);
+		super(instance, 277);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

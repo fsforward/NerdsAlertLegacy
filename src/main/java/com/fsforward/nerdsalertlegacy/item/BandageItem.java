@@ -27,7 +27,7 @@ public class BandageItem extends NerdsalertLegacyModElements.ModElement {
 	public static final Item block = null;
 
 	public BandageItem(NerdsalertLegacyModElements instance) {
-		super(instance, 307);
+		super(instance, 75);
 	}
 
 	@Override

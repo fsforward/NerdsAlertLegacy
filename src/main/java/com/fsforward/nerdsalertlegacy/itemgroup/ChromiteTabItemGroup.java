@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class ChromiteTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public ChromiteTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 282);
+		super(instance, 290);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class BlockOfSandromythsBlock extends NerdsalertLegacyModElements.ModElem
 	public static final Block block = null;
 
 	public BlockOfSandromythsBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 71);
+		super(instance, 79);
 	}
 
 	@Override

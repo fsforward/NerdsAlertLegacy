@@ -56,7 +56,7 @@ public class GreenHerbBlock extends NerdsalertLegacyModElements.ModElement {
 	public static final Block block = null;
 
 	public GreenHerbBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 300);
+		super(instance, 68);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

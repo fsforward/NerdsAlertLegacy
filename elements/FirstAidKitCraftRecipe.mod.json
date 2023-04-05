@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": "CUSTOM:Cotton"
+        "value": "Items.LEATHER"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ForestBreezeCottonBlend"
       },
       {
-        "value": "CUSTOM:YellowHerb"
+        "value": "CUSTOM:Medkit"
       },
       {
-        "value": ""
+        "value": "CUSTOM:RadiantHarvestCottonBlend"
       },
       {
-        "value": ""
+        "value": "CUSTOM:WettedPaper"
       },
       {
-        "value": "CUSTOM:MortarAndPestle"
+        "value": "CUSTOM:WettedPaper"
       },
       {
-        "value": ""
+        "value": "CUSTOM:WettedPaper"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RadiantHarvestCottonBlend"
+      "value": "CUSTOM:FirstAidKit"
     },
-    "name": "radiant_harvest_cotton_blend_craft_recipe",
+    "name": "first_aid_kit_craft_recipe",
     "namespace": "mod"
   }
 }

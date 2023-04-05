@@ -13,7 +13,7 @@ import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 @NerdsalertLegacyModElements.ModElement.Tag
 public class ShadiTabItemGroup extends NerdsalertLegacyModElements.ModElement {
 	public ShadiTabItemGroup(NerdsalertLegacyModElements instance) {
-		super(instance, 283);
+		super(instance, 291);
 	}
 
 	@Override

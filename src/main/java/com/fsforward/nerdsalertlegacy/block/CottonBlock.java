@@ -51,12 +51,12 @@ import com.fsforward.nerdsalertlegacy.itemgroup.MiscTabItemGroup;
 import com.fsforward.nerdsalertlegacy.NerdsalertLegacyModElements;
 
 @NerdsalertLegacyModElements.ModElement.Tag
-public class CottonHerbBlock extends NerdsalertLegacyModElements.ModElement {
-	@ObjectHolder("nerdsalert_legacy:cotton_herb")
+public class CottonBlock extends NerdsalertLegacyModElements.ModElement {
+	@ObjectHolder("nerdsalert_legacy:cotton")
 	public static final Block block = null;
 
-	public CottonHerbBlock(NerdsalertLegacyModElements instance) {
-		super(instance, 302);
+	public CottonBlock(NerdsalertLegacyModElements instance) {
+		super(instance, 70);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -101,8 +101,8 @@ public class CottonHerbBlock extends NerdsalertLegacyModElements.ModElement {
 							(new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(block.getDefaultState()), new SimpleBlockPlacer()))
 									.tries(5).build())
 					.withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT).func_242731_b(8);
-			event.getRegistry().register(feature.setRegistryName("cotton_herb"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("nerdsalert_legacy:cotton_herb"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("cotton"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("nerdsalert_legacy:cotton"), configuredFeature);
 		}
 	}
 
@@ -120,7 +120,7 @@ public class CottonHerbBlock extends NerdsalertLegacyModElements.ModElement {
 		public BlockCustomFlower() {
 			super(Effects.NAUSEA, 100, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.PLANT)
 					.hardnessAndResistance(0f, 0f).setLightLevel(s -> 0));
-			setRegistryName("cotton_herb");
+			setRegistryName("cotton");
 		}
 
 		@Override

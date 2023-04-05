@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Cotton"
-      },
-      {
         "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:YellowHerb"
+        "value": "Items.LEATHER"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": "CUSTOM:MortarAndPestle"
+        "value": "CUSTOM:Bandage"
       },
       {
-        "value": ""
+        "value": "CUSTOM:RadiantHarvestCottonBlend"
+      },
+      {
+        "value": "CUSTOM:Bandage"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RadiantHarvestCottonBlend"
+      "value": "CUSTOM:Medkit"
     },
-    "name": "radiant_harvest_cotton_blend_craft_recipe",
+    "name": "medkit_craft_recipe",
     "namespace": "mod"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leather"
+    },
+    "1": {
+      "item": "minecraft:leather"
+    },
+    "2": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "nerdsalert_legacy:forest_breeze_cotton_blend"
+    },
+    "4": {
+      "item": "nerdsalert_legacy:medkit"
+    },
+    "5": {
+      "item": "nerdsalert_legacy:radiant_harvest_cotton_blend"
+    },
+    "6": {
+      "item": "nerdsalert_legacy:wetted_paper"
+    },
+    "7": {
+      "item": "nerdsalert_legacy:wetted_paper"
+    },
+    "8": {
+      "item": "nerdsalert_legacy:wetted_paper"
+    }
+  },
+  "result": {
+    "item": "nerdsalert_legacy:first_aid_kit",
+    "count": 1
+  }
+}
