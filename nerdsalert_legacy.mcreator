@@ -3201,8 +3201,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.nerdsalert_legacy.mahogany_fence": "Mahogany Fence",
       "itemGroup.tabshadi_tab": "Shadi",
+      "block.nerdsalert_legacy.mahogany_fence": "Mahogany Fence",
       "item.nerdsalert_legacy.shadi_jordite_sword": "Shadi Jordite Sword",
       "block.nerdsalert_legacy.tychola_ore": "Tychola Ore",
       "item.nerdsalert_legacy.shadi_sandromyths_armor_boots": "Shadi Sandromyths Boots",
